@@ -1,0 +1,1599 @@
+{
+  "title": "Under the Sun",
+  "book": "Ecclesiastes",
+  "intro": "Ecclesiastes is the strangest book in the Bible. A man with unlimited money, unlimited power and unlimited time ran the experiment everyone secretly wants to run, and came back to report that none of it holds. Then he tells you to go eat your lunch and enjoy it. Ten weeks, the whole book, no skipping the uncomfortable parts.",
+  "sessions": [
+    {
+      "id": 1,
+      "kind": "study",
+      "title": "Everything Is Vapor",
+      "ref": "1:1-11",
+      "chapters": [
+        1
+      ],
+      "mins": 54,
+      "question": "If nobody remembers it in fifty years, did it matter?",
+      "summary": "The book opens by telling you its conclusion before it shows any work. Then a poem about a world in constant motion that never actually gets anywhere.",
+      "prep": [
+        "Read Ecclesiastes 1:1–11 once before you come. That is genuinely all the prep this needs.",
+        "The one thing worth knowing: the Hebrew word behind “vanity” or “futile” is <b>hevel</b>, which literally means <b>vapour</b> — breath on a cold morning. Not “worthless.” Not “fake.” Just impossible to hold onto. Almost everything in this book turns on that.",
+        "Do not resolve it for them. The book takes twelve chapters to get somewhere; if you jump to the answer in week one, the other nine weeks have nothing to do."
+      ],
+      "steps": [
+        {
+          "kind": "open",
+          "title": "Before we open anything",
+          "mins": 6,
+          "body": [
+            "Straight in, no preamble. Let everyone answer before anyone reads anything."
+          ],
+          "asks": [
+            {
+              "q": "What is something you were completely obsessed with three years ago that you now genuinely never think about?",
+              "hint": "Answer it yourself first if it's slow — an embarrassing one works best. The point is to have the feeling in the room before the text names it."
+            },
+            {
+              "q": "Do you think anyone will remember you in a hundred years? Does that bother you?"
+            }
+          ],
+          "leader": [
+            "You are not fishing for anything here. You want them to notice, on their own, that things they cared about intensely have already evaporated. The passage is going to say exactly that in about four minutes, and it lands much harder if they said it first."
+          ]
+        },
+        {
+          "kind": "watch",
+          "title": "The whole book in eight minutes",
+          "mins": 18,
+          "video": {
+            "youtubeId": "lrsQ1tc-2wk",
+            "title": "Book of Ecclesiastes Summary: A Complete Animated Overview",
+            "channel": "BibleProject",
+            "duration": "8:01",
+            "pauses": [
+              {
+                "at": 135,
+                "atLabel": "2:15",
+                "q": "He gives two examples of vapour: good things that get snatched away, and good people who get treated badly. Which of those two bothers you more?",
+                "hint": "Neither is the right answer. If someone picks the justice one, ask where they got the expectation that the world owes anyone fairness."
+              },
+              {
+                "at": 264,
+                "atLabel": "4:24",
+                "q": "In 1:4-7 his evidence is nature — the sun, the wind, the rivers, all going round and never arriving anywhere. Is that a picture of pointlessness, or of something reliable?",
+                "hint": "The same cycles that look futile to him are the ones keeping everyone alive. If they all land on bleak, ask what a world without those cycles would actually be like."
+              },
+              {
+                "at": 391,
+                "atLabel": "6:31",
+                "q": "His way out is to stop trying to control any of it. Chapter 1 has not got anywhere near that yet. Does that sound like wisdom to you, or like giving up?",
+                "hint": "Do not settle it. If someone says giving up, ask what the alternative is and whether they are managing it."
+              }
+            ]
+          },
+          "noVideo": "Skip it, read Ecclesiastes 1:1-11 aloud first, and set it up with one line: a king who had everything wrote a report on whether it was worth it, and this is the report.",
+          "asks": [
+            {
+              "q": "Ecclesiastes 1:1-2 is not the teacher talking, it is someone else quoting him. Does having a second voice frame the whole book make you trust the teacher more, or less?",
+              "hint": "Scholars do not agree either. Some think the frame rescues the book, others think it defangs it."
+            },
+            {
+              "q": "That gave you the ending in eight minutes. The eleven verses we are about to read do not have one. Which of the two is closer to how things actually feel to you?"
+            }
+          ]
+        },
+        {
+          "kind": "read",
+          "title": "Ecclesiastes 1:1–11",
+          "mins": 15,
+          "passage": "1:1-11",
+          "body": [
+            "Read it out loud, taking turns by verse. It is poetry and it is built to be heard."
+          ],
+          "interleave": [
+            {
+              "after": "1:2",
+              "asks": [
+                {
+                  "q": "He uses the word five times in one sentence. If you had to pick one English word for it — vapour, futile, meaningless, fleeting, absurd — which would you choose, and what does your choice do to the rest of the book?",
+                  "hint": "Tap the verse to see all six translations. They genuinely disagree, and seeing that is the point."
+                }
+              ]
+            },
+            {
+              "after": "1:3",
+              "asks": [
+                {
+                  "q": "That word “gain” is a business term — profit, what's left over after costs. He is asking what the net return on a human life is. Is that a fair question to ask, or a cynical one?"
+                }
+              ]
+            },
+            {
+              "after": "1:8",
+              "asks": [
+                {
+                  "q": "“The eye is not satisfied with seeing, nor the ear filled with hearing.” Where do you feel that most in your own week?",
+                  "hint": "Scrolling is the obvious answer and it's a real one. Don't dismiss it — ask what it's like to stop."
+                }
+              ]
+            },
+            {
+              "after": "1:11",
+              "asks": [
+                {
+                  "q": "Verse 9 says there's nothing new under the sun. Verse 11 says the reason it feels that way is that nobody remembers. Which of those is he actually claiming?",
+                  "hint": "This is the sharpest turn in the poem. It moves the problem out of the world and into memory — nothing is new because we keep forgetting."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "dig",
+          "title": "The part with no clean answer",
+          "mins": 10,
+          "asks": [
+            {
+              "q": "Is this man depressed, or is he just the only person in the room willing to say what everyone can see?"
+            },
+            {
+              "q": "Why would a book this bleak be in the Bible at all? What would be lost if someone had edited it out?",
+              "hint": "Worth saying out loud: the Bible contains a book that argues with the rest of the Bible. That is a strange and interesting fact about it."
+            },
+            {
+              "q": "He is a king with unlimited resources and he still ends up here. Does that make his conclusion more convincing, or less?"
+            }
+          ],
+          "leader": [
+            "<b>Let the discomfort stand.</b> If someone says “this is depressing” — yes. It is. The honest reply is “that's what it says, and it's in the Bible on purpose.” Don't rescue it with a verse from Romans. The book will do its own work over the next ten weeks.",
+            "If someone tries to close it down with “but Jesus gives life meaning,” that is a real answer and it deserves a real follow-up rather than a nod: <i>“So does that mean Qohelet is wrong, or that he's describing something true that isn't the whole picture?”</i>"
+          ]
+        },
+        {
+          "kind": "land",
+          "title": "One thing to notice",
+          "mins": 5,
+          "body": [
+            "Don't summarise. Give them one thing to carry:",
+            "<b>This week, notice one thing you're chasing that you know you won't be able to keep.</b> Not to feel bad about it. Just to notice that you know."
+          ],
+          "asks": [
+            {
+              "q": "Anything from today you want to argue with before we stop?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "kind": "study",
+      "title": "The Experiment",
+      "ref": "1:12-2:26",
+      "chapters": [
+        1,
+        2
+      ],
+      "mins": 51,
+      "question": "He got everything on the list. Then what?",
+      "summary": "A controlled experiment nobody else could afford to run: pleasure, achievement, wisdom, wealth, all of it. He reports the results, hates his life, and then — with no warning — tells you to enjoy your dinner.",
+      "prep": [
+        "Read 1:12–2:26. The turn at 2:23 → 2:24 is the whole point of the session; make sure you've noticed how abrupt it is.",
+        "This is the first of <b>seven</b> times the book pivots from despair to “eat, drink, enjoy your work.” They come at exactly the darkest moments and they get longer each time. That pattern is the book's actual argument.",
+        "Do not let them hear 2:24 as “so just distract yourself.” He is not recommending escape. He is saying that a good lunch is a gift and not a wage."
+      ],
+      "steps": [
+        {
+          "kind": "open",
+          "title": "The list",
+          "mins": 6,
+          "body": [
+            "Ask them to be specific. Vague answers here make the passage land soft."
+          ],
+          "asks": [
+            {
+              "q": "What is on your list? The actual one — the things that, if you got them, you think you'd feel settled.",
+              "hint": "If they're being coy, ask a narrower version: what do you think you'll have at 25 that you don't have now?"
+            },
+            {
+              "q": "Who do you know that already has the thing you want? Do they seem settled?"
+            }
+          ]
+        },
+        {
+          "kind": "watch",
+          "title": "Chapter 1, in four minutes",
+          "mins": 15,
+          "video": {
+            "youtubeId": "WJgt1vRkPbI",
+            "title": "The Books of Solomon",
+            "channel": "BibleProject",
+            "duration": "5:27",
+            "pauses": [
+              {
+                "at": 92,
+                "atLabel": "1:32",
+                "q": "Chapter 2 is his inventory. Houses, vineyards, pools, orchards, singers, silver, the lot. He is the only person who ever got to run this test properly. Does that make his verdict more convincing to you, or less?",
+                "hint": "If it stalls, ask whether they would trust a five-star review from someone who got the product for free."
+              },
+              {
+                "at": 159,
+                "atLabel": "2:39",
+                "q": "Here the search for wisdom is a romance worth chasing. In 1:13 he chases it as hard as anyone could and calls the search itself a miserable job God handed out. Which of the two sounds truer to you?",
+                "hint": "Narrow it if needed: a subject at school, or a person, that they know more about now than they wanted to."
+              },
+              {
+                "at": 220,
+                "atLabel": "3:40",
+                "q": "1:18 says the more you know, the more it hurts. This still says go after wisdom anyway. What would you say to someone who read that verse and decided they would rather not know?",
+                "hint": "Let \"nothing\" stand if that is the honest answer. Then ask whether there is anything they would actually choose to un-know."
+              }
+            ]
+          },
+          "noVideo": "No internet: read 1 Kings 3:5-13 and 10:14-25 aloud instead — the king who asked for wisdom and had everything else thrown in — then go straight into Ecclesiastes 1:12.",
+          "asks": [
+            {
+              "q": "It lands on: keep living by wisdom, just with more realistic expectations. Does that sound like the man who wrote 1:18, or like someone tidying him up?",
+              "hint": "Push for the verse that settles it either way. Both readings are available in the text."
+            },
+            {
+              "q": "It says \"under the sun\" means life outside the garden. In 2:4-6 he plants gardens, orchards and pools. Does that read to you as him trying to get back in?",
+              "hint": "If someone says yes, ask what 2:11 then does to that."
+            }
+          ]
+        },
+        {
+          "kind": "read",
+          "title": "Ecclesiastes 1:12–2:26",
+          "mins": 16,
+          "passage": "1:12-2:26",
+          "body": [
+            "This is long. Take turns and keep it moving — it's a report, and it reads like one."
+          ],
+          "interleave": [
+            {
+              "after": "1:18",
+              "asks": [
+                {
+                  "q": "“The more knowledge, the more grief.” Is that true? Has learning something ever made you less happy and you still wouldn't undo it?"
+                }
+              ]
+            },
+            {
+              "after": "2:11",
+              "asks": [
+                {
+                  "q": "He built houses, gardens, pools, vineyards; he had money, music, and staff. Read verse 11 again. What exactly is he saying he didn't get?",
+                  "hint": "He isn't saying he had no fun. He says there was no <i>yitron</i> — nothing left over, no surplus he could bank."
+                }
+              ]
+            },
+            {
+              "after": "2:16",
+              "asks": [
+                {
+                  "q": "He says wisdom really is better than folly — and then says it doesn't save you from anything. Can both be true?"
+                }
+              ]
+            },
+            {
+              "after": "2:23",
+              "asks": [
+                {
+                  "q": "He now hates his life and hates his work. Read the next verse before anyone says anything."
+                }
+              ]
+            },
+            {
+              "after": "2:26",
+              "asks": [
+                {
+                  "q": "So: he hates everything, and then immediately says eat, drink and enjoy your work. Is that a contradiction, giving up, or something else?",
+                  "hint": "This exact move happens seven times in the book. Ask which reading would still make sense on the seventh."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "dig",
+          "title": "The turn",
+          "mins": 9,
+          "asks": [
+            {
+              "q": "If achievement genuinely doesn't satisfy, why do we all keep going? Is that stupidity, or is something else going on?"
+            },
+            {
+              "q": "He says the worst part is having to hand it all to someone who might waste it. Why does that bother him more than dying?"
+            },
+            {
+              "q": "“Eat, drink, and find enjoyment in your work — this is from the hand of God.” What is the difference between enjoying something as a gift and enjoying it as a reward you earned?",
+              "hint": "This is the hinge of the whole book. A wage is owed to you; a gift isn't. Which one can be enjoyed on a bad day?"
+            }
+          ],
+          "leader": [
+            "<b>The trap to avoid:</b> making this a lesson about not being materialistic. That is not what the text says, and they will smell the moral coming a mile off. He is not against having things — he had more than anyone. He is against expecting things to do something they cannot do.",
+            "If the conversation gets flat, go concrete: <i>“What's the best ordinary hour you had this week?”</i> Then read 2:24 again."
+          ]
+        },
+        {
+          "kind": "land",
+          "title": "One thing to notice",
+          "mins": 5,
+          "body": [
+            "<b>This week: eat one meal without your phone and notice whether it is actually good.</b> That is genuinely the assignment. He is serious about it."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "kind": "study",
+      "title": "A Time for Everything",
+      "ref": "3:1-22",
+      "chapters": [
+        3
+      ],
+      "mins": 51,
+      "question": "You can sense that life adds up to something. You just can't see it. Why is it built that way?",
+      "summary": "The most famous poem in the book, followed by the part nobody quotes: God put eternity in your heart, and then made sure you can't see the whole picture.",
+      "prep": [
+        "Read 3:1–22. Most people know verses 1–8 and stop. Verse 11 is the one that actually matters.",
+        "3:11 — “he has put eternity into the human heart, yet so that no one can find out what God has done from beginning to end.” You can feel the whole; you cannot see the whole. That ache is designed.",
+        "3:18–21 is genuinely shocking — humans and animals share one breath and one death. Don't soften it. He is looking at what he can observe, and from down here it looks exactly the same."
+      ],
+      "steps": [
+        {
+          "kind": "open",
+          "title": "Timing",
+          "mins": 5,
+          "asks": [
+            {
+              "q": "When has something happened to you at completely the wrong time?"
+            },
+            {
+              "q": "Do you think things happen for a reason? Be honest — not what you're supposed to say."
+            }
+          ]
+        },
+        {
+          "kind": "watch",
+          "title": "Chapters 2–3",
+          "mins": 12,
+          "video": {
+            "youtubeId": "uCOycIMyJZM",
+            "title": "What is Eternal Life?",
+            "channel": "BibleProject",
+            "duration": "5:30",
+            "pauses": [
+              {
+                "at": 97,
+                "atLabel": "1:37",
+                "q": "Ecclesiastes 3:11 uses that same word. God put an age into the human heart, and then made sure no one can see the whole of it. What do you make of being built like that?",
+                "hint": "If it stalls, ask when they last stood in the middle of something much bigger than they could see. Don't join the dots for them."
+              },
+              {
+                "at": 254,
+                "atLabel": "4:14",
+                "q": "Ecclesiastes 3:21 says nobody actually knows whether a human's breath goes anywhere different from an animal's. He has just said you can have God's own life now, in this age. Is that an answer to 3:21, or a different subject?",
+                "hint": "If it stalls, ask which of the two they would be willing to say out loud at a funeral, and why. Leave it unresolved — the book does."
+              }
+            ]
+          },
+          "noVideo": "No internet: read 3:11 aloud twice, tell them the word behind \"eternity\" is olam, meaning an age — a stretch of time with its own character — and ask what it would mean to have one of those put inside you.",
+          "asks": [
+            {
+              "q": "He says two ages overlap — one where things die, one where they don't. Chapter 3 says there is a time for everything, including a time to die. Do those two pictures sit together for you?",
+              "hint": "Some will say yes straight away. Ask what it costs to hold both at once."
+            },
+            {
+              "q": "Nothing in that video removes the second half of 3:11 — no one can find out what God has done from beginning to end. Why do you think that part still stands?",
+              "hint": "You don't have a settled answer here either. Say so, and let the silence run."
+            }
+          ]
+        },
+        {
+          "kind": "read",
+          "title": "Ecclesiastes 3:1–22",
+          "mins": 16,
+          "passage": "3:1-22",
+          "interleave": [
+            {
+              "after": "3:8",
+              "asks": [
+                {
+                  "q": "That list includes killing, tearing down, hating and war. Not just the nice pairs. Why do you think he put those in?",
+                  "hint": "This poem gets read at weddings and funerals with the ugly half quietly dropped. Ask what happens to it if you leave them in."
+                }
+              ]
+            },
+            {
+              "after": "3:11",
+              "asks": [
+                {
+                  "q": "“He has put eternity into the human heart — yet no one can find out what God has done from beginning to end.” Read that twice. What is he saying we've been given, and what have we been denied?",
+                  "hint": "The claim is that we're built to sense there's a whole story, and built so we can't read it. Ask whether that feels cruel or kind — there is no agreed answer."
+                },
+                {
+                  "q": "Have you ever felt that? The sense that all of this means something, without being able to say what?"
+                }
+              ]
+            },
+            {
+              "after": "3:15",
+              "asks": [
+                {
+                  "q": "Verse 14 says God does it this way so that people will fear him. What do you think “fear God” actually means here?",
+                  "hint": "It won't mean “be scared of God” by the end of the book. Leave it open; it comes back in chapter 12."
+                }
+              ]
+            },
+            {
+              "after": "3:21",
+              "asks": [
+                {
+                  "q": "He just said humans and animals have the same breath and the same end, and that nobody actually knows otherwise. Does that land as bleak to you, or as honest?",
+                  "hint": "Do not fix this. He is describing what he can observe from “under the sun.” The whole book is about the limits of that view."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "dig",
+          "title": "Eternity in the heart",
+          "mins": 13,
+          "asks": [
+            {
+              "q": "If you could see the whole picture — every reason for everything that happens — do you actually want that? What would it cost you?"
+            },
+            {
+              "q": "Is “there is a time for everything” comforting or frightening? It includes a time to die."
+            },
+            {
+              "q": "Twice now he's gone from something bleak straight into “so enjoy your work.” What kind of person can do that?"
+            }
+          ],
+          "leader": [
+            "This session tends to go quiet, in a good way. Let it. 3:11 is the verse people remember years later.",
+            "If someone has lost a grandparent recently, this passage will be doing something in them. You don't have to draw it out — just don't rush the silence."
+          ]
+        },
+        {
+          "kind": "land",
+          "title": "One thing to notice",
+          "mins": 5,
+          "body": [
+            "<b>This week: notice one thing you can't control that you keep trying to.</b> Not to fix it. Just to see it clearly."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "kind": "study",
+      "title": "Nobody to Wipe Their Tears",
+      "ref": "4:1-5:7",
+      "chapters": [
+        4,
+        5
+      ],
+      "mins": 50,
+      "question": "Why is almost everything you work for really about beating someone else?",
+      "summary": "Oppression with no comforter, work that turns out to be envy, and the loneliest man in the Bible. Then a warning about opening your mouth in front of God.",
+      "prep": [
+        "Read 4:1–5:7. Chapter 4 is the most socially observant part of the book — it is about competition, isolation, and being watched.",
+        "4:4 is the line that does the work: all skilled labour comes from one person's envy of another. Ask whether that's cynical or just accurate.",
+        "5:1–7 shifts abruptly to how you behave in worship. The link is talking too much: chapter 4 is about people performing for each other, 5:1–7 is about performing for God."
+      ],
+      "steps": [
+        {
+          "kind": "open",
+          "title": "Comparison",
+          "mins": 6,
+          "asks": [
+            {
+              "q": "Who do you compare yourself to most? You don't have to name them out loud — just notice whether you knew the answer immediately."
+            },
+            {
+              "q": "Is competition good for you? Genuinely — has it made you better, or just tired?"
+            }
+          ]
+        },
+        {
+          "kind": "watch",
+          "title": "Chapters 3–6",
+          "mins": 16,
+          "video": {
+            "youtubeId": "A14THPoc4-4",
+            "title": "This Justice Is Not Revenge",
+            "channel": "BibleProject",
+            "duration": "6:18",
+            "pauses": [
+              {
+                "at": 67,
+                "atLabel": "1:07",
+                "q": "Ecclesiastes 4:1 gives one reason this happens: power was on the oppressors' side. This video gives another: everyone quietly rewrites what counts as fair to suit themselves. Which one explains more of what you actually see at school?",
+                "hint": "If it goes quiet, drop the word school and ask about a team, a group chat, a family."
+              },
+              {
+                "at": 159,
+                "atLabel": "2:39",
+                "q": "He has just said the Bible's word for justice means going out and finding the people being taken advantage of. Ecclesiastes 4:1 says twice that nobody came. Why do you think Qoheleth stops at watching?",
+                "hint": "If it stalls, point out he says in 1:12 that he was king. He was not powerless, and he never mentions using it."
+              },
+              {
+                "at": 255,
+                "atLabel": "4:15",
+                "q": "Ecclesiastes 4:4 says every bit of skill and hard work comes out of envying someone else. The video says everyone ends up on the guilty side, some of us without ever choosing it. Do you buy either of them?",
+                "hint": "Let someone say no. Then ask what they would put in place of envy as the reason people work that hard."
+              }
+            ]
+          },
+          "noVideo": "Skip it: read 4:1-3 aloud, then Micah 6:8 aloud, and ask which of the two men sounds like he has seen more.",
+          "asks": [
+            {
+              "q": "The video ends by saying the only reasonable response to being let off is to go and do the same for someone else. Ecclesiastes 4 has no ending like that. Does the argument still work without it?"
+            },
+            {
+              "q": "If you were the comforter in 4:1, the one who turns up, what would you actually do? Not what should be done. What would you do.",
+              "hint": "Names help. Ask them to picture one person rather than a category."
+            }
+          ]
+        },
+        {
+          "kind": "read",
+          "title": "Ecclesiastes 4:1–5:7",
+          "mins": 15,
+          "passage": "4:1-5:7",
+          "interleave": [
+            {
+              "after": "4:3",
+              "asks": [
+                {
+                  "q": "He says the dead are better off than the living, and the never-born better than both. That's about as dark as the Bible gets. What made him say it?",
+                  "hint": "Look at verse 1 — it's the repeated phrase “and they had no comforter.” The problem isn't suffering. It's suffering with nobody there."
+                }
+              ]
+            },
+            {
+              "after": "4:4",
+              "asks": [
+                {
+                  "q": "“All toil and skill in work come from one person's envy of another.” Is that true of your school? Of you?",
+                  "hint": "Push past the first no. Ask: would you work as hard if nobody could see the result?"
+                }
+              ]
+            },
+            {
+              "after": "4:12",
+              "asks": [
+                {
+                  "q": "This is the one bit of straightforward hope in the chapter — two are better than one. Why does he put it right here?"
+                }
+              ]
+            },
+            {
+              "after": "5:3",
+              "asks": [
+                {
+                  "q": "“Let your words be few.” When have you said something religious that you didn't mean?",
+                  "hint": "Answer this one yourself first. It's a question that needs someone to go first."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "dig",
+          "title": "Watched",
+          "mins": 8,
+          "asks": [
+            {
+              "q": "Chapter 4 is full of people performing for an audience. 5:1–7 says: in front of God, shut up and listen. Is that a relief or a threat?"
+            },
+            {
+              "q": "He says the oppressed had no comforter — twice. If that's the real problem, what does that make our job?"
+            },
+            {
+              "q": "Is it possible to work hard at something without it being about beating someone? What would that even look like?"
+            }
+          ],
+          "leader": [
+            "This is the session where the group's own life is closest to the surface — they live inside a comparison machine. Give it room.",
+            "<b>Don't turn 4:9–12 into a nice bit about friendship.</b> It's placed deliberately in the middle of the bleakest chapter. The claim is that company is the only thing he found that actually helps."
+          ]
+        },
+        {
+          "kind": "land",
+          "title": "One thing to notice",
+          "mins": 5,
+          "body": [
+            "<b>This week: do one useful thing that nobody will find out about.</b> Then notice how it felt to not be able to tell anyone."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "kind": "service",
+      "title": "Serving Sunday",
+      "ref": "",
+      "subtitle": "No lesson — we do something",
+      "chapters": [],
+      "mins": 60,
+      "question": "The group asked for this roughly once a month. It is not a week off.",
+      "summary": "Instead of meeting, the group serves — setting up, clearing up, or something outside the building.",
+      "prep": [
+        "Older teenagers often engage more with a job that needs doing than with another discussion. Roughly once a month is about right.",
+        "Confirm the job with whoever runs it <b>before</b> Sunday so the group isn't standing around. Fifteen minutes of aimlessness will kill it.",
+        "Give them real work, not decorative work. They can tell the difference immediately."
+      ],
+      "steps": [
+        {
+          "kind": "open",
+          "title": "Two minutes before you start",
+          "mins": 3,
+          "body": [
+            "Say what the job is, who it's for, and when you'll stop. Then get on with it."
+          ],
+          "asks": [
+            {
+              "q": "Ecclesiastes says work is vapour and also that enjoying your work is a gift from God. Both. Hold that for the next hour and see what happens."
+            }
+          ]
+        },
+        {
+          "kind": "do",
+          "title": "The work",
+          "mins": 45,
+          "body": [
+            "Work alongside them rather than supervising. That is most of what makes this land."
+          ],
+          "leader": [
+            "Ideas if nothing is already lined up: setup and clearing for an event, a food pantry, grounds and clean-up, or something with a neighbourhood organisation. Ask whoever runs your building what actually needs doing — there is usually a list.",
+            "If it's outdoors and the weather turns, have a fallback. Don't cancel — reschedule the job and run the next study instead."
+          ]
+        },
+        {
+          "kind": "land",
+          "title": "Before everyone scatters",
+          "mins": 8,
+          "body": [
+            "Two questions, standing up, no chairs needed."
+          ],
+          "asks": [
+            {
+              "q": "Was that satisfying? Why, or why not?"
+            },
+            {
+              "q": "Nobody outside this room will remember we did this. Does that make it worth less?",
+              "hint": "This is chapter 1 and chapter 4 arriving at the same time. Don't explain the link — just ask and let them find it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "kind": "study",
+      "title": "Money Never Says Enough",
+      "ref": "5:8-6:12",
+      "chapters": [
+        5,
+        6
+      ],
+      "mins": 52,
+      "question": "How much would be enough? Have you ever actually done the sum?",
+      "summary": "The clearest thing in the book, and the least comfortable: whoever loves money never has enough of it. Then a man who gets everything he wants and cannot enjoy any of it.",
+      "prep": [
+        "Read 5:8–6:12. 5:10 is the thesis, 5:18–20 is the third joy refrain, and 6:1–6 is the bleakest hypothetical in the book.",
+        "6:9 — “better is the sight of the eyes than the wandering of desire” — roughly: what's actually in front of you beats what you're imagining. That is a sharp line for a group that lives on a feed.",
+        "The point is not that money is bad. It is that money is a liar about what it can do."
+      ],
+      "steps": [
+        {
+          "kind": "open",
+          "title": "The number",
+          "mins": 6,
+          "asks": [
+            {
+              "q": "What number would be enough? An actual number — how much money would mean you never had to think about money again?"
+            },
+            {
+              "q": "Do you believe the people who already have that number stopped thinking about it?"
+            }
+          ]
+        },
+        {
+          "kind": "watch",
+          "title": "A different angle",
+          "mins": 16,
+          "video": {
+            "youtubeId": "GpqOdHV3dmU",
+            "title": "Jesus’ Perspective on Wealth in 6 Minutes",
+            "channel": "BibleProject",
+            "duration": "6:54",
+            "pauses": [
+              {
+                "at": 94,
+                "atLabel": "1:34",
+                "q": "Ecclesiastes says whatever you pile up, you leave naked anyway. This says there is a kind of stuff that cannot be lost. Do you believe the second claim, or does it sound like something you say to people who have nothing?",
+                "hint": "If it stalls, get concrete. Ask what they would still have if the phone, the grades and the savings all went tomorrow, then read 5:15 and ask again."
+              },
+              {
+                "at": 218,
+                "atLabel": "3:38",
+                "q": "Ecclesiastes 5:10 says whoever loves money never has enough of it. This says the stuff ends up owning the owner. Most of you are not earning yet, so what in your life is already doing that?",
+                "hint": "If nobody bites, put the obvious candidates on the table and let them argue with you: followers, grades, the university list. Ask which of those has ever said enough."
+              },
+              {
+                "at": 281,
+                "atLabel": "4:41",
+                "q": "Chapter 6 has a man God gives everything to, who cannot enjoy a single bit of it. This says the birds get fed and so will you. Are those two describing the same God?",
+                "hint": "Push it both ways. Ask whether anyone has watched the birds-get-fed version actually hold, and then whether it being hard to see makes it untrue."
+              }
+            ]
+          },
+          "noVideo": "Skip it and read 5:10 aloud in three translations, then ask the number question from the opening again and see whether anyone's answer has moved.",
+          "asks": [
+            {
+              "q": "Where does that agree with Ecclesiastes, and where does it go somewhere Ecclesiastes will not go?",
+              "hint": "Qohelet never promises your needs get met. He watches people lose everything and still tells them to eat their lunch. Ask whether that is a smaller claim or a harder one."
+            },
+            {
+              "q": "Jesus talks about worry. Ecclesiastes talks about sleep — the labourer sleeps, the rich man doesn't. Same problem, or two different ones?"
+            }
+          ]
+        },
+        {
+          "kind": "read",
+          "title": "Ecclesiastes 5:8–6:12",
+          "mins": 15,
+          "passage": "5:8-6:12",
+          "interleave": [
+            {
+              "after": "5:12",
+              "asks": [
+                {
+                  "q": "“The sleep of a labourer is sweet, but the abundance of the rich permits him no sleep.” Do you think that's literally true, or is it a nice line?"
+                }
+              ]
+            },
+            {
+              "after": "5:15",
+              "asks": [
+                {
+                  "q": "“Naked he came, naked he departs.” Everyone knows this. Does anyone live like they believe it?"
+                }
+              ]
+            },
+            {
+              "after": "5:20",
+              "asks": [
+                {
+                  "q": "Third time now: eat, drink, enjoy your work. And he adds something new — such a person “does not much remember the days of his life, because God keeps him occupied with joy.” What does that describe?",
+                  "hint": "It's the opposite of self-consciousness — being so absorbed in something you stop narrating it. Ask when they last felt that."
+                }
+              ]
+            },
+            {
+              "after": "6:6",
+              "asks": [
+                {
+                  "q": "A man with everything, who lives two thousand years and can't enjoy any of it. What is he saying is actually missing?"
+                }
+              ]
+            },
+            {
+              "after": "6:9",
+              "asks": [
+                {
+                  "q": "“Better what the eye sees than the wandering of desire.” Translate that into your life this week."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "dig",
+          "title": "Enough",
+          "mins": 10,
+          "asks": [
+            {
+              "q": "He says the ability to enjoy what you have is itself a gift, separate from having it. Does that seem fair?"
+            },
+            {
+              "q": "What would change about how you spend the next ten years if you actually believed 5:10?"
+            },
+            {
+              "q": "Is there anything you own that you genuinely enjoy? Not that you wanted — that you enjoy, now, still?"
+            }
+          ],
+          "leader": [
+            "Careful here. Most students this age have not earned money yet, so “don't love money” is abstract. Make it concrete: it's the same machine as followers, grades, and getting into the school. The thing that never says <i>enough</i>.",
+            "Don't land on “so be grateful.” That's a smaller idea than the text. He's saying enjoyment is a gift you receive, not a discipline you perform."
+          ]
+        },
+        {
+          "kind": "land",
+          "title": "One thing to notice",
+          "mins": 5,
+          "body": [
+            "<b>This week: notice the moment you think “once I have that, I'll be fine.”</b> You don't have to do anything about it. Just catch it happening."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "kind": "study",
+      "title": "Better to Go to a Funeral",
+      "ref": "7:1-29",
+      "chapters": [
+        7
+      ],
+      "mins": 51,
+      "question": "Why would sadness be better for you than laughing?",
+      "summary": "A chapter of proverbs that keep going wrong on purpose. The day you die beats the day you were born, a funeral beats a party, and being too righteous will destroy you.",
+      "prep": [
+        "Read chapter 7. It looks like Proverbs and then keeps saying things Proverbs would never say. That is deliberate.",
+        "7:16 — “do not be too righteous, do not make yourself too wise; why destroy yourself?” Do not skip this because it's awkward. It is one of the most useful verses in the Bible for a high achiever.",
+        "This is the hardest chapter to lead. If you only have time for part of it, do 7:1–14 properly rather than all 29 verses badly."
+      ],
+      "steps": [
+        {
+          "kind": "open",
+          "title": "Funerals and parties",
+          "mins": 6,
+          "asks": [
+            {
+              "q": "Have you been to a funeral? What was it like being there?"
+            },
+            {
+              "q": "Do you learn more about yourself when things are going well or when they aren't?"
+            }
+          ]
+        },
+        {
+          "kind": "watch",
+          "title": "The uncomfortable version",
+          "mins": 16,
+          "video": {
+            "youtubeId": "b54d_GhBthI",
+            "title": "This May Change How We Think About Struggles in Life",
+            "channel": "BibleProject",
+            "duration": "6:02",
+            "pauses": [
+              {
+                "at": 65,
+                "atLabel": "1:05",
+                "q": "This is about which voice you listen to. Chapter 7 says a wise person's rebuke beats a fool's song. When someone criticises you, how do you decide whether they are worth listening to?",
+                "hint": "Ask for a name, not a category. If nobody comes to mind, ask who they would never take advice from, and why that person."
+              },
+              {
+                "at": 190,
+                "atLabel": "3:10",
+                "q": "Here most people are broken by the hard years and one generation is formed by them. Chapter 7 says the house of mourning does more for you than the house of pleasure. From what you have actually seen, which way does it usually go?",
+                "hint": "Ask for one specific hard stretch they have watched from close up - an illness, a bereavement, a bad school year - and what it did to the people around it."
+              },
+              {
+                "at": 256,
+                "atLabel": "4:16",
+                "q": "Chapter 7 says nobody on earth does good and never sins, and that being too righteous will destroy you. The video says one man got it right. Does that take pressure off you or add to it?",
+                "hint": "If it stalls, ask whether they know anyone who is trying to be flawless, and whether that person looks free."
+              }
+            ]
+          },
+          "noVideo": "Read 7:1-4 aloud twice, then read 7:14 on its own, and go straight into the questions - this chapter needs no warm-up.",
+          "asks": [
+            {
+              "q": "The video has an explanation for hard times - preparation. Verse 14 says God made the good days and the bad days so that you cannot work out what is coming. Which of those two is more honest?",
+              "hint": "Neither is the wrong answer. Push for why. Ask what they would say to a friend halfway through a bad year."
+            },
+            {
+              "q": "Verse 3 says sorrow is better than laughter, because a sad face is good for the heart. True, or just something people say at funerals?",
+              "hint": "If they all agree too fast, ask whether they would choose a sad year over a happy one."
+            }
+          ]
+        },
+        {
+          "kind": "read",
+          "title": "Ecclesiastes 7:1–29",
+          "mins": 15,
+          "passage": "7:1-29",
+          "interleave": [
+            {
+              "after": "7:4",
+              "asks": [
+                {
+                  "q": "“The heart of the wise is in the house of mourning, but the heart of fools is in the house of pleasure.” What does a funeral show you that a party hides?"
+                }
+              ]
+            },
+            {
+              "after": "7:14",
+              "asks": [
+                {
+                  "q": "“In the day of prosperity be joyful, and in the day of adversity consider.” He is not saying be sad. What is he saying?"
+                }
+              ]
+            },
+            {
+              "after": "7:18",
+              "asks": [
+                {
+                  "q": "Verse 16 says don't be too righteous or too wise, or you'll destroy yourself. What on earth does that mean?",
+                  "hint": "Two readings worth putting on the table: (1) don't perform righteousness as a way of controlling God, and (2) don't burn yourself out trying to be flawless. Both are live options. Don't pick for them."
+                }
+              ]
+            },
+            {
+              "after": "7:29",
+              "asks": [
+                {
+                  "q": "He ends with: God made people straight, but they have gone looking for many schemes. Is that a hopeful ending to the chapter or a bleak one?"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "dig",
+          "title": "Too righteous",
+          "mins": 9,
+          "asks": [
+            {
+              "q": "Do you know anyone who has been damaged by trying to be good? What did that look like?"
+            },
+            {
+              "q": "He says wisdom is strength, and also that he searched for wisdom and it stayed far off. Why keep looking for something you've admitted you can't reach?"
+            },
+            {
+              "q": "Would you rather be told a comfortable lie or an uncomfortable truth? Now answer honestly rather than the way you're supposed to."
+            }
+          ],
+          "leader": [
+            "7:16 will be the verse they remember. Plenty of teenagers raised around religion quietly conclude that their job is to be flawless, and this chapter says that will destroy them. Give it real time.",
+            "You are allowed to say “I don't know what this verse means.” This chapter has passages scholars genuinely argue about. Saying so is more credible than inventing an answer, and this group values credibility over confidence."
+          ]
+        },
+        {
+          "kind": "land",
+          "title": "One thing to notice",
+          "mins": 5,
+          "body": [
+            "<b>This week: when something goes badly, sit in it for ten minutes before you fix it or distract yourself.</b> Verse 14 calls that considering."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "kind": "study",
+      "title": "The Same Fate for Everyone",
+      "ref": "8:1-9:12",
+      "chapters": [
+        8,
+        9
+      ],
+      "mins": 49,
+      "question": "If good and bad people end up the same, why be good?",
+      "summary": "The unfairness chapter. Bad people get the good funerals, good people get what the wicked deserve, and everyone ends in the same place. His response is not what you'd expect.",
+      "prep": [
+        "Read 8:1–9:12. 8:14 names the problem outright: the righteous get what the wicked deserve and vice versa. He calls it hevel and does not resolve it.",
+        "9:7–10 is the longest and warmest of the joy refrains — go, eat your bread with joy, drink your wine with a glad heart, wear white, enjoy the person you love. It arrives immediately after “the same fate comes to all.”",
+        "The structure is the argument: the darker the observation, the more emphatic the call to enjoy your actual life. By now they should be able to spot the pattern themselves — ask them."
+      ],
+      "steps": [
+        {
+          "kind": "open",
+          "title": "Unfair",
+          "mins": 6,
+          "asks": [
+            {
+              "q": "What's the most unfair thing you've watched happen to someone who didn't deserve it?"
+            },
+            {
+              "q": "Did anything make it right afterwards? Did you need it to?"
+            }
+          ]
+        },
+        {
+          "kind": "watch",
+          "title": "Chapters 6–11",
+          "mins": 15,
+          "video": {
+            "youtubeId": "3dEh25pduQ8",
+            "title": "This Is the Hope For Ending the Evil that Affects Your Life",
+            "channel": "BibleProject",
+            "duration": "5:47",
+            "pauses": [
+              {
+                "at": 65,
+                "atLabel": "1:05",
+                "q": "He just said the Bible never explains where the snake came from. Ecclesiastes 8:17 says nobody can work out what is going on under the sun, not even the wise. Does refusing to explain evil make the book more trustworthy to you, or less?",
+                "hint": "If nobody starts, ask whether they would rather have been given a reason they did not believe."
+              },
+              {
+                "at": 219,
+                "atLabel": "3:39",
+                "q": "Ecclesiastes 8:14 calls it hevel when the righteous get what the wicked deserve. Isaiah takes that exact unfairness and says the healing comes out of it. Does that change how 8:14 reads, or does it stay just as unfair?",
+                "hint": "If they say it is sorted, ask whether Qohelet, writing long before any of this, had a single bit of it available to him."
+              },
+              {
+                "at": 283,
+                "atLabel": "4:43",
+                "q": "Ecclesiastes 9:2 says the same fate comes to everyone — the good, the bad, the religious, the not. Does anything the video has claimed touch that sentence, or does it stand as written?",
+                "hint": "Do not settle it. If someone lands on \"it stands\", that is a legitimate reading of the chapter and worth saying so."
+              }
+            ]
+          },
+          "noVideo": "Skip it and read 8:14 straight into 9:7 twice, then ask what he is doing by putting them in that order.",
+          "asks": [
+            {
+              "q": "The video ends with the whole thing put right. Ecclesiastes ends with nothing put right and \"go, eat your bread with joy\" anyway. Which of the two do you find easier to believe?",
+              "hint": "9:7-10 is the seventh time he pulls this move. If it helps, get them to hunt down the other six."
+            },
+            {
+              "q": "Qohelet had no resurrection to point at when he wrote 9:7-10. Does knowing the ending make that instruction easier to follow, or does it take something out of it?",
+              "hint": "Ask what they would say to someone who had Ecclesiastes and nothing else."
+            }
+          ]
+        },
+        {
+          "kind": "read",
+          "title": "Ecclesiastes 8:1–9:12",
+          "mins": 15,
+          "passage": "8:1-9:12",
+          "interleave": [
+            {
+              "after": "8:14",
+              "asks": [
+                {
+                  "q": "Righteous people getting what the wicked deserve, and wicked people getting what the righteous deserve. He says this happens “on earth” — present tense, not hypothetically. What do you do with a Bible verse that says the system doesn't work?"
+                }
+              ]
+            },
+            {
+              "after": "8:17",
+              "asks": [
+                {
+                  "q": "“Even if a wise man claims he knows, he cannot find it out.” Is there something freeing about being told you won't understand?"
+                }
+              ]
+            },
+            {
+              "after": "9:6",
+              "asks": [
+                {
+                  "q": "One fate for everyone — the good, the bad, the religious, the not. Read 9:3 again. How does that sit with you?"
+                }
+              ]
+            },
+            {
+              "after": "9:10",
+              "asks": [
+                {
+                  "q": "Now read 9:7–10 again slowly. He's just said everyone dies the same and then tells you to eat your bread with joy and wear white. Is that denial, defiance, or faith?",
+                  "hint": "This is the seventh and biggest version of the refrain. Ask them what changes if you read it as a command rather than a consolation."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "dig",
+          "title": "So why be good?",
+          "mins": 8,
+          "asks": [
+            {
+              "q": "If it makes no observable difference, what's actually left as a reason to be a decent person?"
+            },
+            {
+              "q": "He has now done this seven times — something unbearable, then eat your bread with joy. What kind of claim about God is he making by putting them in that order?"
+            },
+            {
+              "q": "“Whatever your hand finds to do, do it with your might.” From the man who said everything is vapour. How is that not a contradiction?"
+            }
+          ],
+          "leader": [
+            "By now the pattern is visible, so hand it to them: “Has anyone noticed what he does every time it gets darkest?” Let them find the seven refrains. That discovery is worth more than you explaining it.",
+            "<b>Resist tidying 8:14.</b> The Bible contains a verse saying the world is observably unfair, and does not immediately fix it. That honesty is why this book is worth their time."
+          ]
+        },
+        {
+          "kind": "land",
+          "title": "One thing to notice",
+          "mins": 5,
+          "body": [
+            "<b>This week: do one thing with your whole effort that has no reward attached.</b> 9:10, taken literally."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "kind": "service",
+      "title": "Serving Sunday",
+      "ref": "",
+      "subtitle": "No lesson — we do something",
+      "chapters": [],
+      "mins": 60,
+      "question": "Second one. Same idea, different job.",
+      "summary": "The second service Sunday of the series. Same shape as the first — real work, done together, with two questions at the end.",
+      "prep": [
+        "Line the job up in advance. The failure mode is arriving with nothing specific to do.",
+        "If the first one worked, do something different this time so it doesn't become a routine.",
+        "By this point they've read eight chapters about work being vapour. The closing questions land differently now — use them."
+      ],
+      "steps": [
+        {
+          "kind": "open",
+          "title": "Two minutes before you start",
+          "mins": 3,
+          "body": [
+            "Say what the job is, who it's for, and when you'll stop."
+          ],
+          "asks": [
+            {
+              "q": "Chapter 9 said: whatever your hand finds to do, do it with your might. That's the whole brief for the next hour."
+            }
+          ]
+        },
+        {
+          "kind": "do",
+          "title": "The work",
+          "mins": 45,
+          "body": [
+            "Work with them, not over them."
+          ],
+          "leader": [
+            "Consider something off-site this time — a food pantry, a neighbourhood clean-up, or a project one of them suggests. A sponsored walk or a donation drive have both worked with groups like this before.",
+            "Ask them a week ahead what they'd want to do. They'll show up differently for something they chose."
+          ]
+        },
+        {
+          "kind": "land",
+          "title": "Before everyone scatters",
+          "mins": 8,
+          "asks": [
+            {
+              "q": "Did that feel like vapour, or like the thing chapter 9 was talking about?"
+            },
+            {
+              "q": "Would you do it again if it were never mentioned to anyone?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "kind": "study",
+      "title": "Cast Your Bread on the Water",
+      "ref": "9:13-11:6",
+      "chapters": [
+        9,
+        10,
+        11
+      ],
+      "mins": 51,
+      "question": "You will never have enough information. So how do you decide anything?",
+      "summary": "Wisdom gets you ignored, folly gets you promoted, and small stupidities ruin big reputations. Then the most practical advice in the book: you don't know what will work, so do several things.",
+      "prep": [
+        "Read 9:13–11:6. Chapter 10 is a run of proverbs, some funny — the man who digs a pit and falls in it, the snake charmer who gets bitten before he starts charming.",
+        "11:1–6 is where he lands: throw your bread on the water, divide your portion seven or eight ways, sow in the morning and in the evening, because you do not know which will succeed. That is a risk strategy, not a platitude.",
+        "This is the most immediately useful session in the series for people about to make big decisions with no information."
+      ],
+      "steps": [
+        {
+          "kind": "open",
+          "title": "Deciding",
+          "mins": 6,
+          "asks": [
+            {
+              "q": "What's a decision you're going to have to make in the next two years that you don't have enough information for?"
+            },
+            {
+              "q": "How do you actually decide things — gut, advice, research, or avoiding it until it decides itself?"
+            }
+          ]
+        },
+        {
+          "kind": "watch",
+          "title": "Wisdom, and its limits",
+          "mins": 11,
+          "video": {
+            "youtubeId": "PqEiqCuIsvw",
+            "title": "Why Sharing Your Wisdom Isn’t Always Wise",
+            "channel": "BibleProject",
+            "duration": "5:24",
+            "end": 265,
+            "pauses": [
+              {
+                "at": 61,
+                "atLabel": "1:01",
+                "q": "He says studying wisdom can make you worse at seeing your own blind spots. In the passage we're about to read, a poor wise man saves an entire city and is forgotten immediately. Whose judgement do you trust when you have no way of checking it yourself?",
+                "hint": "If it stalls, make it concrete. Ask them to think of someone whose advice turned out to be right and got ignored anyway, and why it got ignored."
+              },
+              {
+                "at": 155,
+                "atLabel": "2:35",
+                "q": "He says there is no formula, only discernment. Ecclesiastes 11 hits the same wall and still tells you to act — sow in the morning, sow again in the evening. Is \"there is no formula\" an honest answer, or the thing people say when they haven't got one?",
+                "hint": "If it stalls, ask them to name the last piece of advice they actually took, and what made them take that one."
+              }
+            ]
+          },
+          "noVideo": "Skip it and read 9:13-17 aloud — the poor wise man who saved the city, and the line that his words were not heard — then ask whose judgement they trust when they cannot check it themselves.",
+          "asks": [
+            {
+              "q": "He treats not knowing as a reason to be careful about speaking. Ecclesiastes 11 treats not knowing as a reason to act anyway. Which of those is closer to how you operate?",
+              "hint": "Don't resolve it. This is the tension the rest of the session runs on, and it works better left open until the dig."
+            },
+            {
+              "q": "Next we read a run of proverbs — a dull axe means more effort, a snake bites before it's charmed. From what you've just watched, is wisdom more a skill you build or more a matter of timing?",
+              "hint": "If the group splits, get one person from each side to argue it for a minute before moving on."
+            }
+          ]
+        },
+        {
+          "kind": "read",
+          "title": "Ecclesiastes 9:13–11:6",
+          "mins": 15,
+          "passage": "9:13-11:6",
+          "interleave": [
+            {
+              "after": "9:16",
+              "asks": [
+                {
+                  "q": "A poor wise man saves an entire city and nobody remembers him. Why does that story bother him so much?"
+                }
+              ]
+            },
+            {
+              "after": "10:10",
+              "asks": [
+                {
+                  "q": "“If the axe is dull and he does not sharpen the edge, he must use more strength.” Where in your life are you using more strength instead of sharpening the axe?"
+                }
+              ]
+            },
+            {
+              "after": "11:2",
+              "asks": [
+                {
+                  "q": "“Give a portion to seven, or even to eight, for you know not what disaster may happen.” This is advice about not knowing the future. What would that look like for you concretely?"
+                }
+              ]
+            },
+            {
+              "after": "11:6",
+              "asks": [
+                {
+                  "q": "“In the morning sow your seed, and at evening do not withhold your hand, for you do not know which will prosper.” Is that faith or hedging?",
+                  "hint": "Both readings work and they're worth putting against each other. He isn't saying be reckless, and he isn't saying be certain. He's saying act anyway."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "dig",
+          "title": "Acting without knowing",
+          "mins": 14,
+          "asks": [
+            {
+              "q": "He spends a whole book saying you can't know how things turn out — and then tells you to work hard and take risks. How does that follow?"
+            },
+            {
+              "q": "“Whoever watches the wind will not sow.” Who do you know who is waiting for perfect conditions?"
+            },
+            {
+              "q": "What would you do this year if you accepted that you cannot know whether it will work?"
+            }
+          ],
+          "leader": [
+            "This one is genuinely practical, and it lands at exactly the age where it applies — course choices, colleges, whether to keep going with something.",
+            "If they want a straight answer for once, this is the session to give one: <i>the book's advice for an unknowable future is to act, spread your bets, and stop waiting for certainty that isn't coming.</i>"
+          ]
+        },
+        {
+          "kind": "land",
+          "title": "One thing to notice",
+          "mins": 5,
+          "body": [
+            "<b>This week: do the thing you've been waiting for more information about.</b> 11:4 — whoever watches the wind will never sow."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "kind": "study",
+      "title": "Remember Your Creator",
+      "ref": "11:7-12:8",
+      "chapters": [
+        11,
+        12
+      ],
+      "mins": 50,
+      "question": "This is the one part of the book written directly to people your age.",
+      "summary": "Light is sweet, being young is good, enjoy it — and remember who made you before your body stops working. Then the strangest and most beautiful poem in the Bible about growing old.",
+      "prep": [
+        "Read 11:7–12:8. This is the passage the whole book has been walking toward, and it is addressed specifically to young people. Say that out loud to them.",
+        "12:1–7 is an extended metaphor for aging: the keepers of the house tremble (hands), the grinders cease (teeth), those looking through the windows are dimmed (eyes), the almond tree blossoms (white hair). Let them work some of it out themselves — it's satisfying.",
+        "11:9 is startling: follow your heart and the sight of your eyes — <i>and</i> know that God will bring you into judgement. Both halves. Neither cancels the other."
+      ],
+      "steps": [
+        {
+          "kind": "open",
+          "title": "Being this age",
+          "mins": 6,
+          "asks": [
+            {
+              "q": "What's genuinely good about being your age right now — not what adults tell you is good about it?"
+            },
+            {
+              "q": "What do you think you'll miss about it?"
+            }
+          ]
+        },
+        {
+          "kind": "watch",
+          "title": "Chapter 12",
+          "mins": 11,
+          "video": {
+            "youtubeId": "TJLan-pJzfQ",
+            "title": "We Studied the Tree of Life in the Bible (Here’s What We Found)",
+            "channel": "BibleProject",
+            "duration": "4:51",
+            "pauses": [
+              {
+                "at": 151,
+                "atLabel": "2:31",
+                "q": "That video says the tree that kills you is deciding for yourself what's good. Ecclesiastes 11:9 tells you to follow your heart and the sight of your eyes. Both of those are in the same Bible. What do you make of that?",
+                "hint": "If they dissolve it in ten seconds, ask which of the two they would actually say to a fifteen year old, and why."
+              },
+              {
+                "at": 244,
+                "atLabel": "4:04",
+                "q": "The video says joining this tree means letting your old way of being human die. Ecclesiastes says remember your Creator now, while your body still works. What would either of those actually cost someone your age?",
+                "hint": "Ask for concrete things rather than right answers. Time, friendships, what you would have to stop pretending about."
+              }
+            ]
+          },
+          "noVideo": "Read Genesis 2:8-9 and 3:22-24 aloud, then Ecclesiastes 12:7, and ask what the writer is reaching back to when he says the dust returns to the ground.",
+          "asks": [
+            {
+              "q": "That video ends in a garden with the tree of life at the centre. Ecclesiastes ends with \"vapour of vapours, all is vapour.\" Does that make Ecclesiastes incomplete, or honest?",
+              "hint": "Both readings are defensible. Do not resolve it for them."
+            },
+            {
+              "q": "This is the one part of Ecclesiastes written straight at people your age. Why do you think he saved it until the end?",
+              "hint": "If it goes quiet, ask whether the eleven chapters before it were needed to make it land."
+            }
+          ]
+        },
+        {
+          "kind": "read",
+          "title": "Ecclesiastes 11:7–12:8",
+          "mins": 16,
+          "passage": "11:7-12:8",
+          "interleave": [
+            {
+              "after": "11:8",
+              "asks": [
+                {
+                  "q": "“Light is sweet, and it is pleasant for the eyes to see the sun.” After eleven chapters of vapour. Does he mean it?"
+                }
+              ]
+            },
+            {
+              "after": "11:9",
+              "asks": [
+                {
+                  "q": "“Follow the ways of your heart and the sight of your eyes — but know that for all these things God will bring you into judgement.” Most people would only say one half of that. Why does he say both?",
+                  "hint": "Resist making the second half cancel the first. He genuinely tells them to enjoy their youth. He also tells them it counts. Ask what kind of life takes both seriously."
+                }
+              ]
+            },
+            {
+              "after": "12:1",
+              "asks": [
+                {
+                  "q": "“Remember your Creator in the days of your youth, before the difficult days come.” Why now rather than later?"
+                }
+              ]
+            },
+            {
+              "after": "12:7",
+              "asks": [
+                {
+                  "q": "That whole passage is a description of one thing. What is it describing?",
+                  "hint": "Aging. Hands that shake, teeth that stop grinding, eyes that dim, hair going white, and the fear of falling. Let them find it — the moment it clicks is worth waiting for."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "dig",
+          "title": "Now, not later",
+          "mins": 12,
+          "asks": [
+            {
+              "q": "Is it easier or harder to take God seriously when your life is going fine?"
+            },
+            {
+              "q": "He says enjoy being young <i>and</i> remember it counts. Have you ever heard those two things said together, or do you usually get one or the other?"
+            },
+            {
+              "q": "The book ends where it started — “vapour of vapours, all is vapour” (12:8). After everything, he hasn't changed his mind. Why not?"
+            }
+          ],
+          "leader": [
+            "This is the emotional centre of the series. It is the one passage written to them rather than about people in general — say so.",
+            "Do not use 12:1 as a warning to scare them into behaving. Read in context it's an invitation: you have something right now — attention, energy, a body that works — that is worth spending on the thing that lasts. That is a different sentence from “you'd better shape up.”"
+          ]
+        },
+        {
+          "kind": "land",
+          "title": "One thing to notice",
+          "mins": 5,
+          "body": [
+            "<b>This week: notice one ordinary good thing and don't rush past it.</b> Light is sweet. He waited eleven chapters to say that."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "kind": "study",
+      "title": "So What Do I Do With This?",
+      "ref": "12:9-14",
+      "chapters": [
+        12
+      ],
+      "mins": 55,
+      "question": "Six verses to make sense of a whole book. Does it work?",
+      "summary": "Someone else takes the microphone. A narrator steps in, tells you what to make of everything Qohelet said, and closes the book. The last session is as much about the ten weeks as the six verses.",
+      "prep": [
+        "Read 12:9–14. Notice it switches to third person — “Qohelet <i>was</i> wise, he <i>taught</i>.” Someone is talking <i>about</i> the man who's been speaking since 1:12. That frame was there in 1:1 too.",
+        "12:11 — “the words of the wise are like goads” — a goad is a sharp stick for prodding livestock. He's saying this book is <i>supposed</i> to hurt a bit. That's a good line to end a series on.",
+        "This session is shorter on text and longer on looking back. Leave real room for the last section."
+      ],
+      "steps": [
+        {
+          "kind": "open",
+          "title": "Ten weeks",
+          "mins": 8,
+          "body": [
+            "Before any text. Let them talk about the whole thing."
+          ],
+          "asks": [
+            {
+              "q": "What has stuck with you from this book? Any verse, any session, anything you've thought about during the week."
+            },
+            {
+              "q": "What did you hate?",
+              "hint": "Ask this one properly and wait. If nobody says anything they disliked, they're being polite, and you'll learn more from the complaint than the compliment."
+            }
+          ]
+        },
+        {
+          "kind": "watch",
+          "title": "The whole book, one more time",
+          "mins": 15,
+          "video": {
+            "youtubeId": "VeUiuSK81-0",
+            "title": "The Disturbing But Surprising Wisdom of Ecclesiastes",
+            "channel": "BibleProject",
+            "duration": "6:42",
+            "end": 344,
+            "pauses": [
+              {
+                "at": 32,
+                "atLabel": "0:32",
+                "q": "You have read the whole book. Whose voice do you trust more — the man who talks for twelve chapters, or the one who sums him up at the end?",
+                "hint": "If they all pick the same one, ask what the other voice would say back. Don't settle it; scholars haven't."
+              },
+              {
+                "at": 217,
+                "atLabel": "3:37",
+                "q": "The last six verses are this book's answer to that question. What would you have written there instead?",
+                "hint": "If it stalls, give them a minute to write one sentence each. Keep them — you can put them next to 12:13 when you read it."
+              },
+              {
+                "at": 279,
+                "atLabel": "4:39",
+                "q": "It says this book can take you somewhere dark. Would you hand it to someone who was already there?",
+                "hint": "Narrow it if it goes quiet: would you have wanted this book in a bad week? Ask whether their answer changes for a friend versus themselves. 12:11-12 is the narrator asking a version of the same thing."
+              }
+            ]
+          },
+          "asks": [
+            {
+              "q": "You watched this in week seven, halfway through. Does it describe the book you actually ended up reading?",
+              "hint": "Say it is a repeat before you press play. They will spot it, and it goes better if you name it first — the point is that they have finished the thing now."
+            },
+            {
+              "q": "It lands on fear God and keep his commandments. Say what that means in your own words, without using the word fear.",
+              "hint": "Session three left this open on purpose and said it would come back in chapter twelve. This is it coming back."
+            }
+          ],
+          "noVideo": "Skip it, read 12:9-14 aloud twice, and ask what they would have written at the end of this book instead — the ten-week look-back is the session and it needs no video."
+        },
+        {
+          "kind": "read",
+          "title": "Ecclesiastes 12:9–14",
+          "mins": 12,
+          "passage": "12:9-14",
+          "body": [
+            "Short. Read it twice — once straight through, once slowly."
+          ],
+          "interleave": [
+            {
+              "after": "12:10",
+              "asks": [
+                {
+                  "q": "The voice just changed. It's now someone talking <i>about</i> the Teacher rather than the Teacher himself. Did you notice that happening?",
+                  "hint": "Look back at 1:1–2 — the same narrator introduced him. The whole book has been quoted inside someone else's frame."
+                }
+              ]
+            },
+            {
+              "after": "12:12",
+              "asks": [
+                {
+                  "q": "“Of making many books there is no end, and much study wearies the body.” Is that a joke?"
+                }
+              ]
+            },
+            {
+              "after": "12:14",
+              "asks": [
+                {
+                  "q": "“Fear God and keep his commandments, for this is the whole duty of man.” After twelve chapters of vapour. Does that ending earn its place, or does it feel bolted on?",
+                  "hint": "Scholars argue about exactly this. Some read it as the frame putting Qohelet in his place; others as the honest conclusion of everything he said. Both are serious readings — put them both up and let the group decide."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "dig",
+          "title": "The whole thing",
+          "mins": 15,
+          "asks": [
+            {
+              "q": "If you had to say what this book is for, in one sentence, what would you say?"
+            },
+            {
+              "q": "The word was never “meaningless” — it was vapour. Having read the whole book, which English word would you now put in 1:2?",
+              "hint": "Open the Vapor page and show them the 32 words the six translations use. They've earned the right to pick one."
+            },
+            {
+              "q": "Has anything you actually do changed in the last ten weeks? Genuine question — “no” is a fine answer."
+            },
+            {
+              "q": "What should we read next?",
+              "hint": "Ask it seriously and write down what they say. They chose better than we did last time."
+            }
+          ],
+          "leader": [
+            "<b>Don't wrap it up too neatly.</b> The book resists that, and so will they. If it ends with an unresolved argument, the series has done its job.",
+            "Worth naming at the end: they read an entire book of the Bible, straight through, in ten weeks. Most people never do that. Say it plainly, once, without making a fuss of it."
+          ]
+        },
+        {
+          "kind": "land",
+          "title": "Last thing",
+          "mins": 5,
+          "body": [
+            "Read 12:13 out loud one more time and stop there. Don't add anything after it."
+          ]
+        }
+      ]
+    }
+  ]
+}

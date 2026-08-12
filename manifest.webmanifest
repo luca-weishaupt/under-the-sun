@@ -1,0 +1,13 @@
+{
+  "name": "Under the Sun — Ecclesiastes",
+  "short_name": "Under the Sun",
+  "description": "A ten-week study of Ecclesiastes for high schoolers.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#FBF9F5",
+  "theme_color": "#131211",
+  "icons": [
+    { "src": "assets/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

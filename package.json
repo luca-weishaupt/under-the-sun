@@ -1,0 +1,14 @@
+{
+  "name": "under-the-sun",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A ten-week study of Ecclesiastes for high schoolers. Static site, no build step.",
+  "type": "module",
+  "scripts": {
+    "test": "node tools/test.mjs && node tools/validate.mjs",
+    "check": "node tools/validate.mjs --videos",
+    "fetch": "node tools/fetch-bible.mjs && node tools/build-hevel.mjs",
+    "start": "python3 -m http.server 8765"
+  },
+  "license": "CC-BY-4.0"
+}

@@ -1,0 +1,60 @@
+{
+  "book": "Ecclesiastes",
+  "chapters": 12,
+  "translations": [
+    {
+      "id": "BSB",
+      "name": "Berean Standard Bible",
+      "blurb": "Modern, accurate, reads cleanly aloud. The default.",
+      "license": "Public domain",
+      "website": "https://berean.bible/",
+      "licenseUrl": "https://berean.bible/",
+      "file": "data/bible/BSB.json"
+    },
+    {
+      "id": "WEB",
+      "name": "World English Bible",
+      "blurb": "A public-domain modern update of the 1901 ASV.",
+      "license": "Public domain",
+      "website": "https://ebible.org/Scriptures/details.php?id=engwebp",
+      "licenseUrl": "https://ebible.org/Scriptures/details.php?id=engwebp",
+      "file": "data/bible/WEB.json"
+    },
+    {
+      "id": "FBV",
+      "name": "Free Bible Version",
+      "blurb": "Plain, direct English. Good when a passage is knotty.",
+      "license": "CC BY-SA 4.0 — © 2018 Dr. Jonathan Gallagher",
+      "website": "https://ebible.org/Scriptures/details.php?id=engfbv",
+      "licenseUrl": "https://ebible.org/Scriptures/details.php?id=engfbv",
+      "file": "data/bible/FBV.json"
+    },
+    {
+      "id": "LSV",
+      "name": "Literal Standard Version",
+      "blurb": "Very literal — close to the Hebrew word order.",
+      "license": "CC BY-SA 4.0 — © 2020 Covenant Press",
+      "website": "https://ebible.org/Scriptures/details.php?id=englsv",
+      "licenseUrl": "https://ebible.org/Scriptures/details.php?id=englsv",
+      "file": "data/bible/LSV.json"
+    },
+    {
+      "id": "BBE",
+      "name": "Bible in Basic English",
+      "blurb": "A 1,000-word vocabulary. The one to try when nothing else lands.",
+      "license": "Public domain",
+      "website": "https://ebible.org/Scriptures/details.php?id=engBBE",
+      "licenseUrl": "https://ebible.org/Scriptures/details.php?id=engBBE",
+      "file": "data/bible/BBE.json"
+    },
+    {
+      "id": "KJV",
+      "name": "King James Version",
+      "blurb": "The 1611 classic. “Vanity of vanities.”",
+      "license": "Public domain",
+      "website": "https://ebible.org/Scriptures/details.php?id=eng-kjv2006",
+      "licenseUrl": "https://ebible.org/Scriptures/details.php?id=eng-kjv2006",
+      "file": "data/bible/KJV.json"
+    }
+  ]
+}

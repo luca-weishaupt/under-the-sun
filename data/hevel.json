@@ -1,0 +1,1575 @@
+{
+ "total": 38,
+ "verses": 30,
+ "translations": [
+  "BSB",
+  "WEB",
+  "FBV",
+  "LSV",
+  "BBE",
+  "KJV"
+ ],
+ "vocabulary": [
+  {
+   "word": "vanity",
+   "count": 90,
+   "translations": [
+    "KJV",
+    "LSV",
+    "WEB"
+   ]
+  },
+  {
+   "word": "to no purpose",
+   "count": 29,
+   "translations": [
+    "BBE"
+   ]
+  },
+  {
+   "word": "futile",
+   "count": 23,
+   "translations": [
+    "BSB"
+   ]
+  },
+  {
+   "word": "vanity of vanities",
+   "count": 9,
+   "translations": [
+    "KJV",
+    "LSV",
+    "WEB"
+   ]
+  },
+  {
+   "word": "hard to understand",
+   "count": 9,
+   "translations": [
+    "FBV"
+   ]
+  },
+  {
+   "word": "so hard to understand",
+   "count": 5,
+   "translations": [
+    "FBV"
+   ]
+  },
+  {
+   "word": "fleeting",
+   "count": 5,
+   "translations": [
+    "BSB",
+    "FBV"
+   ]
+  },
+  {
+   "word": "futility",
+   "count": 5,
+   "translations": [
+    "BSB"
+   ]
+  },
+  {
+   "word": "temporary",
+   "count": 4,
+   "translations": [
+    "FBV"
+   ]
+  },
+  {
+   "word": "breath",
+   "count": 4,
+   "translations": [
+    "BSB",
+    "FBV",
+    "KJV",
+    "WEB"
+   ]
+  },
+  {
+   "word": "futility of futilities",
+   "count": 3,
+   "translations": [
+    "BSB"
+   ]
+  },
+  {
+   "word": "vain",
+   "count": 3,
+   "translations": [
+    "KJV",
+    "LSV",
+    "WEB"
+   ]
+  },
+  {
+   "word": "vanities",
+   "count": 3,
+   "translations": [
+    "KJV",
+    "LSV",
+    "WEB"
+   ]
+  },
+  {
+   "word": "everything passes",
+   "count": 2,
+   "translations": [
+    "FBV"
+   ]
+  },
+  {
+   "word": "frustrating",
+   "count": 2,
+   "translations": [
+    "FBV"
+   ]
+  },
+  {
+   "word": "foolish",
+   "count": 2,
+   "translations": [
+    "BBE"
+   ]
+  },
+  {
+   "word": "short-lived",
+   "count": 1,
+   "translations": [
+    "FBV"
+   ]
+  },
+  {
+   "word": "incomprehensible",
+   "count": 1,
+   "translations": [
+    "FBV"
+   ]
+  },
+  {
+   "word": "tough to comprehend",
+   "count": 1,
+   "translations": [
+    "FBV"
+   ]
+  },
+  {
+   "word": "elusive",
+   "count": 1,
+   "translations": [
+    "FBV"
+   ]
+  },
+  {
+   "word": "passing nature of life whose meaning is elusive",
+   "count": 1,
+   "translations": [
+    "FBV"
+   ]
+  },
+  {
+   "word": "things of no purpose",
+   "count": 1,
+   "translations": [
+    "BBE"
+   ]
+  },
+  {
+   "word": "hard to fathom",
+   "count": 1,
+   "translations": [
+    "FBV"
+   ]
+  },
+  {
+   "word": "wind",
+   "count": 1,
+   "translations": [
+    "BBE"
+   ]
+  },
+  {
+   "word": "hard to do",
+   "count": 1,
+   "translations": [
+    "FBV"
+   ]
+  },
+  {
+   "word": "pass like shadows",
+   "count": 1,
+   "translations": [
+    "FBV"
+   ]
+  },
+  {
+   "word": "quickly over",
+   "count": 1,
+   "translations": [
+    "FBV"
+   ]
+  },
+  {
+   "word": "uncertain",
+   "count": 1,
+   "translations": [
+    "FBV"
+   ]
+  }
+ ],
+ "occurrences": [
+  {
+   "ref": "1:2",
+   "chapter": 1,
+   "verse": 2,
+   "count": 5,
+   "renderings": {
+    "BSB": {
+     "text": "“Futility of futilities,” says the Teacher, “futility of futilities! Everything is futile!”",
+     "words": [
+      "Futility of futilities",
+      "futility of futilities",
+      "futile"
+     ]
+    },
+    "WEB": {
+     "text": "“Vanity of vanities,” says the Preacher; “Vanity of vanities, all is vanity.”",
+     "words": [
+      "Vanity of vanities",
+      "Vanity of vanities",
+      "vanity"
+     ]
+    },
+    "FBV": {
+     "text": "“Everything passes—it's so temporary! It's all so hard to understand!” says the Teacher.",
+     "words": [
+      "so hard to understand",
+      "Everything passes",
+      "temporary"
+     ]
+    },
+    "LSV": {
+     "text": "Vanity of vanities, said the Preacher, vanity of vanities: the whole [is] vanity.",
+     "words": [
+      "Vanity of vanities",
+      "vanity of vanities",
+      "vanity"
+     ]
+    },
+    "BBE": {
+     "text": "All is to no purpose, said the Preacher, all the ways of man are to no purpose.",
+     "words": [
+      "to no purpose",
+      "to no purpose"
+     ]
+    },
+    "KJV": {
+     "text": "Vanity of vanities, saith the Preacher, vanity of vanities; all is vanity.",
+     "words": [
+      "Vanity of vanities",
+      "vanity of vanities",
+      "vanity"
+     ]
+    }
+   }
+  },
+  {
+   "ref": "1:14",
+   "chapter": 1,
+   "verse": 14,
+   "count": 1,
+   "renderings": {
+    "BSB": {
+     "text": "I have seen all the things that are done under the sun, and have found them all to be futile, a pursuit of the wind.",
+     "words": [
+      "futile"
+     ]
+    },
+    "WEB": {
+     "text": "I have seen all the works that are done under the sun; and behold, all is vanity and a chasing after wind.",
+     "words": [
+      "vanity"
+     ]
+    },
+    "FBV": {
+     "text": "I examined everything people do here on earth, and discovered that it's all so temporary—trying to understand it is like trying to pin down the wind!",
+     "words": [
+      "temporary"
+     ]
+    },
+    "LSV": {
+     "text": "I have seen all the works that have been done under the sun, and behold, the whole [is] vanity and distress of spirit!",
+     "words": [
+      "vanity"
+     ]
+    },
+    "BBE": {
+     "text": "I have seen all the works which are done under the sun; all is to no purpose, and desire for wind.",
+     "words": [
+      "to no purpose"
+     ]
+    },
+    "KJV": {
+     "text": "I have seen all the works that are done under the sun; and, behold, all is vanity and vexation of spirit.",
+     "words": [
+      "vanity"
+     ]
+    }
+   }
+  },
+  {
+   "ref": "2:1",
+   "chapter": 2,
+   "verse": 1,
+   "count": 1,
+   "renderings": {
+    "BSB": {
+     "text": "I said to myself, “Come now, I will test you with pleasure; enjoy what is good!” But it proved to be futile.",
+     "words": [
+      "futile"
+     ]
+    },
+    "WEB": {
+     "text": "I said in my heart, “Come now, I will test you with mirth; therefore enjoy pleasure;” and behold, this also was vanity.",
+     "words": [
+      "vanity"
+     ]
+    },
+    "FBV": {
+     "text": "So then I thought to myself, “Alright, let me examine pleasure and see how good that is.” But this too turned out to be something temporary that passes.",
+     "words": [
+      "temporary"
+     ]
+    },
+    "LSV": {
+     "text": "I said in my heart, “Pray, come, I try you with mirth, and look on gladness”; and behold, even it [is] vanity.",
+     "words": [
+      "vanity"
+     ]
+    },
+    "BBE": {
+     "text": "I said in my heart, I will give you joy for a test; so take your pleasure — but it was to no purpose.",
+     "words": [
+      "to no purpose"
+     ]
+    },
+    "KJV": {
+     "text": "I said in mine heart, Go to now, I will prove thee with mirth, therefore enjoy pleasure: and, behold, this also is vanity.",
+     "words": [
+      "vanity"
+     ]
+    }
+   }
+  },
+  {
+   "ref": "2:11",
+   "chapter": 2,
+   "verse": 11,
+   "count": 1,
+   "renderings": {
+    "BSB": {
+     "text": "Yet when I considered all the works that my hands had accomplished and what I had toiled to achieve, I found everything to be futile, a pursuit of the wind; there was nothing to be gained under the sun.",
+     "words": [
+      "futile"
+     ]
+    },
+    "WEB": {
+     "text": "Then I looked at all the works that my hands had worked, and at the labor that I had labored to do; and behold, all was vanity and a chasing after wind, and there was no profit under the sun.",
+     "words": [
+      "vanity"
+     ]
+    },
+    "FBV": {
+     "text": "But when I thought about what I had worked so hard to achieve, everything I'd done, it was so short-lived—as significant as someone trying to catch the wind. There really is no enduring benefit here on earth.",
+     "words": [
+      "short-lived"
+     ]
+    },
+    "LSV": {
+     "text": "and I have looked on all my works that my hands have done, and on the labor that I have labored to do, and behold, the whole [is] vanity and distress of spirit, and there is no advantage under the sun!",
+     "words": [
+      "vanity"
+     ]
+    },
+    "BBE": {
+     "text": "Then I saw all the works which my hands had made, and everything I had been working to do; and I saw that all was to no purpose and desire for wind, and there was no profit under the sun.",
+     "words": [
+      "to no purpose"
+     ]
+    },
+    "KJV": {
+     "text": "Then I looked on all the works that my hands had wrought, and on the labour that I had laboured to do: and, behold, all was vanity and vexation of spirit, and there was no profit under the sun.",
+     "words": [
+      "vanity"
+     ]
+    }
+   }
+  },
+  {
+   "ref": "2:15",
+   "chapter": 2,
+   "verse": 15,
+   "count": 1,
+   "renderings": {
+    "BSB": {
+     "text": "So I said to myself, “The fate of the fool will also befall me. What then have I gained by being wise?” And I said to myself that this too is futile.",
+     "words": [
+      "futile"
+     ]
+    },
+    "WEB": {
+     "text": "Then I said in my heart, “As it happens to the fool, so will it happen even to me; and why was I then more wise?” Then I said in my heart that this also is vanity.",
+     "words": [
+      "vanity"
+     ]
+    },
+    "FBV": {
+     "text": "Then I thought to myself, “If I'm going to end up the same as a fool, what's the point of being so wise?” So I thought to myself, “This is also hard to understand!”",
+     "words": [
+      "hard to understand"
+     ]
+    },
+    "LSV": {
+     "text": "and I said in my heart, “As it happens with the fool, it happens also with me, and why am I then more wise?” And I spoke in my heart, that also this [is] vanity:",
+     "words": [
+      "vanity"
+     ]
+    },
+    "BBE": {
+     "text": "Then said I in my heart: As it comes to the foolish man, so will it come to me; so why have I been wise overmuch? Then I said in my heart: This again is to no purpose.",
+     "words": [
+      "to no purpose"
+     ]
+    },
+    "KJV": {
+     "text": "Then said I in my heart, As it happeneth to the fool, so it happeneth even to me; and why was I then more wise? Then I said in my heart, that this also is vanity.",
+     "words": [
+      "vanity"
+     ]
+    }
+   }
+  },
+  {
+   "ref": "2:17",
+   "chapter": 2,
+   "verse": 17,
+   "count": 1,
+   "renderings": {
+    "BSB": {
+     "text": "So I hated life, because the work that is done under the sun was grievous to me. For everything is futile and a pursuit of the wind.",
+     "words": [
+      "futile"
+     ]
+    },
+    "WEB": {
+     "text": "So I hated life, because the work that is worked under the sun was grievous to me; for all is vanity and a chasing after wind.",
+     "words": [
+      "vanity"
+     ]
+    },
+    "FBV": {
+     "text": "So I ended up feeling disgusted with life because everything that happens here on earth is so distressing. It's so incomprehensible, like trying to control the wind.",
+     "words": [
+      "incomprehensible"
+     ]
+    },
+    "LSV": {
+     "text": "And I have hated life, for sad to me [is] the work that has been done under the sun, for the whole [is] vanity and distress of spirit.",
+     "words": [
+      "vanity"
+     ]
+    },
+    "BBE": {
+     "text": "So I was hating life, because everything under the sun was evil to me: all is to no purpose and desire for wind.",
+     "words": [
+      "to no purpose"
+     ]
+    },
+    "KJV": {
+     "text": "Therefore I hated life; because the work that is wrought under the sun is grievous unto me: for all is vanity and vexation of spirit.",
+     "words": [
+      "vanity"
+     ]
+    }
+   }
+  },
+  {
+   "ref": "2:19",
+   "chapter": 2,
+   "verse": 19,
+   "count": 1,
+   "renderings": {
+    "BSB": {
+     "text": "And who knows whether that man will be wise or foolish? Yet he will take over all the labor at which I have worked skillfully under the sun. This too is futile.",
+     "words": [
+      "futile"
+     ]
+    },
+    "WEB": {
+     "text": "Who knows whether he will be a wise man or a fool? Yet he will have rule over all of my labor in which I have labored, and in which I have shown myself wise under the sun. This also is vanity.",
+     "words": [
+      "vanity"
+     ]
+    },
+    "FBV": {
+     "text": "And who knows whether he will be wise or foolish? Yet he will rule over everything I accomplished through my wisdom here on earth. This is just so frustrating, so hard to understand!",
+     "words": [
+      "so hard to understand",
+      "frustrating"
+     ]
+    },
+    "LSV": {
+     "text": "And who knows whether he is wise or foolish? Yet he rules over all my labor that I have labored at, and that I have done wisely under the sun! This [is] also vanity.",
+     "words": [
+      "vanity"
+     ]
+    },
+    "BBE": {
+     "text": "And who is to say if that man will be wise or foolish? But he will have power over all my work which I have done and in which I have been wise under the sun. This again is to no purpose.",
+     "words": [
+      "to no purpose"
+     ]
+    },
+    "KJV": {
+     "text": "And who knoweth whether he shall be a wise man or a fool? yet shall he have rule over all my labour wherein I have laboured, and wherein I have shewed myself wise under the sun. This is also vanity.",
+     "words": [
+      "vanity"
+     ]
+    }
+   }
+  },
+  {
+   "ref": "2:21",
+   "chapter": 2,
+   "verse": 21,
+   "count": 1,
+   "renderings": {
+    "BSB": {
+     "text": "When there is a man who has labored with wisdom, knowledge, and skill, and he must give his portion to a man who has not worked for it, this too is futile and a great evil.",
+     "words": [
+      "futile"
+     ]
+    },
+    "WEB": {
+     "text": "For there is a man whose labor is with wisdom, with knowledge, and with skillfulness; yet he shall leave it for his portion to a man who has not labored for it. This also is vanity and a great evil.",
+     "words": [
+      "vanity"
+     ]
+    },
+    "FBV": {
+     "text": "For you can work wisely, knowledgably, and with skill—and who benefits? Someone who hasn't worked for it! This is both frustrating and totally unjust!",
+     "words": [
+      "frustrating"
+     ]
+    },
+    "LSV": {
+     "text": "For there is a man whose labor [is] in wisdom, and in knowledge, and in equity, and to a man who has not labored therein he gives it—his portion! Even this [is] vanity and a great evil.",
+     "words": [
+      "vanity"
+     ]
+    },
+    "BBE": {
+     "text": "Because there is a man whose work has been done with wisdom, with knowledge, and with an expert hand; but one who has done nothing for it will have it for his heritage. This again is to no purpose and a great evil.",
+     "words": [
+      "to no purpose"
+     ]
+    },
+    "KJV": {
+     "text": "For there is a man whose labour is in wisdom, and in knowledge, and in equity; yet to a man that hath not laboured therein shall he leave it for his portion. This also is vanity and a great evil.",
+     "words": [
+      "vanity"
+     ]
+    }
+   }
+  },
+  {
+   "ref": "2:23",
+   "chapter": 2,
+   "verse": 23,
+   "count": 1,
+   "renderings": {
+    "BSB": {
+     "text": "Indeed, all his days are filled with grief, and his task is sorrowful; even at night, his mind does not rest. This too is futile.",
+     "words": [
+      "futile"
+     ]
+    },
+    "WEB": {
+     "text": "For all his days are sorrows, and his travail is grief; yes, even in the night his heart takes no rest. This also is vanity.",
+     "words": [
+      "vanity"
+     ]
+    },
+    "FBV": {
+     "text": "Your working life is full of trouble and strife—even at night your thoughts keep you awake. This is tough to comprehend!",
+     "words": [
+      "tough to comprehend"
+     ],
+     "paraphrased": true
+    },
+    "LSV": {
+     "text": "For all his days are sorrows, and his travail sadness; even at night his heart has not lain down; this [is] also vanity.",
+     "words": [
+      "vanity"
+     ]
+    },
+    "BBE": {
+     "text": "All his days are sorrow, and his work is full of grief. Even in the night his heart has no rest. This again is to no purpose.",
+     "words": [
+      "to no purpose"
+     ]
+    },
+    "KJV": {
+     "text": "For all his days are sorrows, and his travail grief; yea, his heart taketh not rest in the night. This is also vanity.",
+     "words": [
+      "vanity"
+     ]
+    }
+   }
+  },
+  {
+   "ref": "2:26",
+   "chapter": 2,
+   "verse": 26,
+   "count": 1,
+   "renderings": {
+    "BSB": {
+     "text": "To the man who is pleasing in His sight, He gives wisdom and knowledge and joy, but to the sinner He assigns the task of gathering and accumulating that which he will hand over to one who pleases God. This too is futile and a pursuit of the wind.",
+     "words": [
+      "futile"
+     ]
+    },
+    "WEB": {
+     "text": "For to the man who pleases him, God gives wisdom, knowledge, and joy; but to the sinner he gives travail, to gather and to heap up, that he may give to him who pleases God. This also is vanity and a chasing after wind.",
+     "words": [
+      "vanity"
+     ]
+    },
+    "FBV": {
+     "text": "To those who are good, God gives wisdom, knowledge, and joy. But to the sinner God gives the task of gathering and collecting wealth, only to hand it over to someone who pleases God. This also shows how fleeting life is, and hard to understand—like trying to understand how the wind blows.",
+     "words": [
+      "hard to understand",
+      "fleeting"
+     ]
+    },
+    "LSV": {
+     "text": "For to a man who [is] good before Him, He has given wisdom, and knowledge, and joy; and to a sinner He has given travail, to gather and to heap up, to give to the good before God. Even this [is] vanity and distress of spirit.",
+     "words": [
+      "vanity"
+     ]
+    },
+    "BBE": {
+     "text": "To the man with whom he is pleased, God gives wisdom and knowledge and joy; but to the sinner he gives the work of getting goods together and storing up wealth, to give to him in whom God has pleasure. This again is to no purpose and desire for wind.",
+     "words": [
+      "to no purpose"
+     ]
+    },
+    "KJV": {
+     "text": "For God giveth to a man that is good in his sight wisdom, and knowledge, and joy: but to the sinner he giveth travail, to gather and to heap up, that he may give to him that is good before God. This also is vanity and vexation of spirit.",
+     "words": [
+      "vanity"
+     ]
+    }
+   }
+  },
+  {
+   "ref": "3:19",
+   "chapter": 3,
+   "verse": 19,
+   "count": 1,
+   "renderings": {
+    "BSB": {
+     "text": "For the fates of both men and beasts are the same: As one dies, so dies the other—they all have the same breath. Man has no advantage over the animals, since everything is futile.",
+     "words": [
+      "futile",
+      "breath"
+     ]
+    },
+    "WEB": {
+     "text": "For that which happens to the sons of men happens to animals. Even one thing happens to them. As the one dies, so the other dies. Yes, they have all one breath; and man has no advantage over the animals, for all is vanity.",
+     "words": [
+      "vanity",
+      "breath"
+     ]
+    },
+    "FBV": {
+     "text": "For what happens to human beings is the same as what happens to animals—in the same way one dies, the other dies too. They all have the breath of life—so regarding any advantage human beings have over animals, there is none. Definitely this is very hard to understand!",
+     "words": [
+      "hard to understand",
+      "breath"
+     ]
+    },
+    "LSV": {
+     "text": "For an event [is to] the sons of man, and an event [is to] the beasts, even one event [is] to them; as the death of this, so [is] the death of that; and one spirit [is] to all, and the advantage of man above the beast is nothing, for the whole [is] vanity.",
+     "words": [
+      "vanity"
+     ]
+    },
+    "BBE": {
+     "text": "Because the fate of the sons of men and the fate of the beasts is the same. As is the death of one so is the death of the other, and all have one spirit. Man is not higher than the beasts; because all is to no purpose.",
+     "words": [
+      "to no purpose"
+     ]
+    },
+    "KJV": {
+     "text": "For that which befalleth the sons of men befalleth beasts; even one thing befalleth them: as the one dieth, so dieth the other; yea, they have all one breath; so that a man hath no preeminence above a beast: for all is vanity.",
+     "words": [
+      "vanity",
+      "breath"
+     ]
+    }
+   }
+  },
+  {
+   "ref": "4:4",
+   "chapter": 4,
+   "verse": 4,
+   "count": 1,
+   "renderings": {
+    "BSB": {
+     "text": "I saw that all labor and success spring from a man’s envy of his neighbor. This too is futile and a pursuit of the wind.",
+     "words": [
+      "futile"
+     ]
+    },
+    "WEB": {
+     "text": "Then I saw all the labor and achievement that is the envy of a man’s neighbor. This also is vanity and a striving after wind.",
+     "words": [
+      "vanity"
+     ]
+    },
+    "FBV": {
+     "text": "I observed that every skill in work comes from competition with others. Once again this is hard to understand, like trying to hold on to the elusive wind.",
+     "words": [
+      "hard to understand",
+      "elusive"
+     ]
+    },
+    "LSV": {
+     "text": "And I have seen all the labor, and all the benefit of the work, because for it a man is the envy of his neighbor. Even this [is] vanity and distress of spirit.",
+     "words": [
+      "vanity"
+     ]
+    },
+    "BBE": {
+     "text": "And I saw that the cause of all the work and of everything which is done well was man's envy of his neighbour. This again is to no purpose and a desire for wind.",
+     "words": [
+      "to no purpose"
+     ]
+    },
+    "KJV": {
+     "text": "¶ Again, I considered all travail, and every right work, that for this a man is envied of his neighbour. This is also vanity and vexation of spirit.",
+     "words": [
+      "vanity"
+     ]
+    }
+   }
+  },
+  {
+   "ref": "4:7",
+   "chapter": 4,
+   "verse": 7,
+   "count": 1,
+   "renderings": {
+    "BSB": {
+     "text": "Again, I saw futility under the sun.",
+     "words": [
+      "futility"
+     ]
+    },
+    "WEB": {
+     "text": "Then I returned and saw vanity under the sun.",
+     "words": [
+      "vanity"
+     ]
+    },
+    "FBV": {
+     "text": "Then I turned to consider something else here on earth that is also frustratingly hard to understand.",
+     "words": [
+      "hard to understand"
+     ]
+    },
+    "LSV": {
+     "text": "And I have turned, and I see a vain thing under the sun:",
+     "words": [
+      "vain"
+     ]
+    },
+    "BBE": {
+     "text": "Then I came back, and I saw an example of what is to no purpose under the sun.",
+     "words": [
+      "to no purpose"
+     ]
+    },
+    "KJV": {
+     "text": "¶ Then I returned, and I saw vanity under the sun.",
+     "words": [
+      "vanity"
+     ]
+    }
+   }
+  },
+  {
+   "ref": "4:8",
+   "chapter": 4,
+   "verse": 8,
+   "count": 1,
+   "renderings": {
+    "BSB": {
+     "text": "There is a man all alone, without even a son or brother. And though there is no end to his labor, his eyes are still not content with his wealth: “For whom do I toil and bereave my soul of enjoyment?” This too is futile—a miserable task.",
+     "words": [
+      "futile"
+     ]
+    },
+    "WEB": {
+     "text": "There is one who is alone, and he has neither son nor brother. There is no end to all of his labor, neither are his eyes satisfied with wealth. “For whom then do I labor and deprive my soul of enjoyment?” This also is vanity. Yes, it is a miserable business.",
+     "words": [
+      "vanity"
+     ]
+    },
+    "FBV": {
+     "text": "What about someone who has no family to help him, no brother or son, who works all the time, but isn't satisfied with the money he makes. “Who am I working for?” he asks himself. “Why am I preventing myself from enjoying life?” Such a situation is hard to explain—it's an evil business!",
+     "words": [],
+     "paraphrased": true
+    },
+    "LSV": {
+     "text": "There is one, and there is not a second; even son or brother he has not, and there is no end to all his labor! His eye also is not satisfied with riches, and [he does not say], “For whom am I laboring and bereaving my soul of good?” This also is vanity, it is a sad travail.",
+     "words": [
+      "vanity"
+     ]
+    },
+    "BBE": {
+     "text": "It is one who is by himself, without a second, and without son or brother; but there is no end to all his work, and he has never enough of wealth. For whom, then, am I working and keeping myself from pleasure? This again is to no purpose, and a bitter work.",
+     "words": [
+      "to no purpose"
+     ]
+    },
+    "KJV": {
+     "text": "There is one alone, and there is not a second; yea, he hath neither child nor brother: yet is there no end of all his labour; neither is his eye satisfied with riches; neither saith he, For whom do I labour, and bereave my soul of good? This is also vanity, yea, it is a sore travail.",
+     "words": [
+      "vanity"
+     ]
+    }
+   }
+  },
+  {
+   "ref": "4:16",
+   "chapter": 4,
+   "verse": 16,
+   "count": 1,
+   "renderings": {
+    "BSB": {
+     "text": "There is no limit to all the people who were before them. Yet the successor will not be celebrated by those who come even later. This too is futile and a pursuit of the wind.",
+     "words": [
+      "futile"
+     ]
+    },
+    "WEB": {
+     "text": "There was no end of all the people, even of all them over whom he was—yet those who come after shall not rejoice in him. Surely this also is vanity and a chasing after wind.",
+     "words": [
+      "vanity"
+     ]
+    },
+    "FBV": {
+     "text": "He is surrounded by crowds of supporters, but the next generation isn't happy with him. This also illustrates the passing nature of life whose meaning is elusive, like pursuing the wind for understanding.",
+     "words": [
+      "passing nature of life whose meaning is elusive"
+     ]
+    },
+    "LSV": {
+     "text": "there is no end to all the people, to all who were before them; also, the latter do not rejoice in him. Surely this also is vanity and distress of spirit.",
+     "words": [
+      "vanity"
+     ]
+    },
+    "BBE": {
+     "text": "There was no end of all the people, of all those whose head he was, but they who come later will have no delight in him. This again is to no purpose and desire for wind.",
+     "words": [
+      "to no purpose"
+     ]
+    },
+    "KJV": {
+     "text": "There is no end of all the people, even of all that have been before them: they also that come after shall not rejoice in him. Surely this also is vanity and vexation of spirit.",
+     "words": [
+      "vanity"
+     ]
+    }
+   }
+  },
+  {
+   "ref": "5:7",
+   "chapter": 5,
+   "verse": 7,
+   "count": 1,
+   "renderings": {
+    "BSB": {
+     "text": "For as many dreams bring futility, so do many words. Therefore, fear God.",
+     "words": [
+      "futility"
+     ]
+    },
+    "WEB": {
+     "text": "For in the multitude of dreams there are vanities, as well as in many words; but you must fear God.",
+     "words": [
+      "vanities"
+     ]
+    },
+    "FBV": {
+     "text": "There are certainly many dreams, questions of meaning, and lots of different ideas, but you are to follow God.",
+     "words": [],
+     "paraphrased": true
+    },
+    "LSV": {
+     "text": "For in the abundance of dreams both vanities and words abound; but fear God.",
+     "words": [
+      "vanities"
+     ]
+    },
+    "BBE": {
+     "text": "Because much talk comes from dreams and things of no purpose. But let the fear of God be in you.",
+     "words": [
+      "things of no purpose"
+     ]
+    },
+    "KJV": {
+     "text": "For in the multitude of dreams and many words there are also divers vanities: but fear thou God.",
+     "words": [
+      "vanities"
+     ]
+    }
+   }
+  },
+  {
+   "ref": "5:10",
+   "chapter": 5,
+   "verse": 10,
+   "count": 1,
+   "renderings": {
+    "BSB": {
+     "text": "He who loves money is never satisfied by money, and he who loves wealth is never satisfied by income. This too is futile.",
+     "words": [
+      "futile"
+     ]
+    },
+    "WEB": {
+     "text": "He who loves silver shall not be satisfied with silver, nor he who loves abundance, with increase. This also is vanity.",
+     "words": [
+      "vanity"
+     ]
+    },
+    "FBV": {
+     "text": "People who love money never have enough money; those who love wealth never have enough income. This too is so temporary and makes little sense.",
+     "words": [
+      "temporary"
+     ]
+    },
+    "LSV": {
+     "text": "Whoever is loving silver is not satisfied [with] silver, nor he who is in love with stores [with] increase. Even this [is] vanity.",
+     "words": [
+      "vanity"
+     ]
+    },
+    "BBE": {
+     "text": "He who has a love for silver never has enough silver, or he who has love for wealth, enough profit. This again is to no purpose.",
+     "words": [
+      "to no purpose"
+     ]
+    },
+    "KJV": {
+     "text": "He that loveth silver shall not be satisfied with silver; nor he that loveth abundance with increase: this is also vanity.",
+     "words": [
+      "vanity"
+     ]
+    }
+   }
+  },
+  {
+   "ref": "6:2",
+   "chapter": 6,
+   "verse": 2,
+   "count": 1,
+   "renderings": {
+    "BSB": {
+     "text": "God gives a man riches, wealth, and honor, so that he lacks nothing his heart desires; but God does not allow him to enjoy them. Instead, a stranger will enjoy them. This is futile and a grievous affliction.",
+     "words": [
+      "futile"
+     ]
+    },
+    "WEB": {
+     "text": "a man to whom God gives riches, wealth, and honor, so that he lacks nothing for his soul of all that he desires, yet God gives him no power to eat of it, but an alien eats it. This is vanity, and it is an evil disease.",
+     "words": [
+      "vanity"
+     ]
+    },
+    "FBV": {
+     "text": "God gives wealth, possessions, and honor to someone. They have everything they want. But God doesn't let them enjoy what they have. Instead somebody else does! This is hard to fathom, and is truly evil.",
+     "words": [
+      "hard to fathom"
+     ]
+    },
+    "LSV": {
+     "text": "A man to whom God gives wealth, and riches, and honor, and there is no lack to his soul of all that he desires, and God does not give him power to eat of it, but a stranger eats it; this [is] vanity, and it [is] an evil disease.",
+     "words": [
+      "vanity"
+     ]
+    },
+    "BBE": {
+     "text": "A man to whom God gives money, wealth, and honour so that he has all his desires but God does not give him the power to have joy of it, and a strange man takes it. This is to no purpose and an evil disease.",
+     "words": [
+      "to no purpose"
+     ]
+    },
+    "KJV": {
+     "text": "A man to whom God hath given riches, wealth, and honour, so that he wanteth nothing for his soul of all that he desireth, yet God giveth him not power to eat thereof, but a stranger eateth it: this is vanity, and it is an evil disease.",
+     "words": [
+      "vanity"
+     ]
+    }
+   }
+  },
+  {
+   "ref": "6:4",
+   "chapter": 6,
+   "verse": 4,
+   "count": 1,
+   "renderings": {
+    "BSB": {
+     "text": "For a stillborn child enters in futility and departs in darkness, and his name is shrouded in obscurity.",
+     "words": [
+      "futility"
+     ]
+    },
+    "WEB": {
+     "text": "for it comes in vanity, and departs in darkness, and its name is covered with darkness.",
+     "words": [
+      "vanity"
+     ]
+    },
+    "FBV": {
+     "text": "The way a stillborn child comes into the world and then leaves is painfully hard to understand—arriving and departing in darkness—and who he would have been is never known.",
+     "words": [
+      "hard to understand"
+     ]
+    },
+    "LSV": {
+     "text": "For in vanity he came in, and in darkness he goes, and in darkness his name is covered,",
+     "words": [
+      "vanity"
+     ]
+    },
+    "BBE": {
+     "text": "In wind it came and to the dark it will go, and with the dark will its name be covered.",
+     "words": [
+      "wind"
+     ]
+    },
+    "KJV": {
+     "text": "For he cometh in with vanity, and departeth in darkness, and his name shall be covered with darkness.",
+     "words": [
+      "vanity"
+     ]
+    }
+   }
+  },
+  {
+   "ref": "6:9",
+   "chapter": 6,
+   "verse": 9,
+   "count": 1,
+   "renderings": {
+    "BSB": {
+     "text": "Better what the eye can see than the wandering of desire. This too is futile and a pursuit of the wind.",
+     "words": [
+      "futile"
+     ]
+    },
+    "WEB": {
+     "text": "Better is the sight of the eyes than the wandering of the desire. This also is vanity and a chasing after wind.",
+     "words": [
+      "vanity"
+     ]
+    },
+    "FBV": {
+     "text": "Be happy with what you have instead of running after what you don't! But this is also hard to do, like running after the wind.",
+     "words": [
+      "hard to do"
+     ]
+    },
+    "LSV": {
+     "text": "Better [is] the sight of the eyes than the going of the soul. This [is] also vanity and distress of spirit.",
+     "words": [
+      "vanity"
+     ]
+    },
+    "BBE": {
+     "text": "What the eyes see is better than the wandering of desire. This is to no purpose and a desire for wind.",
+     "words": [
+      "to no purpose"
+     ]
+    },
+    "KJV": {
+     "text": "¶ Better is the sight of the eyes than the wandering of the desire: this is also vanity and vexation of spirit.",
+     "words": [
+      "vanity"
+     ]
+    }
+   }
+  },
+  {
+   "ref": "6:11",
+   "chapter": 6,
+   "verse": 11,
+   "count": 1,
+   "renderings": {
+    "BSB": {
+     "text": "For the more words, the more futility—and how does that profit anyone?",
+     "words": [
+      "futility"
+     ]
+    },
+    "WEB": {
+     "text": "For there are many words that create vanity. What does that profit man?",
+     "words": [
+      "vanity"
+     ]
+    },
+    "FBV": {
+     "text": "For the more words you use, the harder it is to make sense. So what's the point?",
+     "words": [],
+     "paraphrased": true
+    },
+    "LSV": {
+     "text": "For there are many things multiplying vanity; What advantage [is] to man?",
+     "words": [
+      "vanity"
+     ]
+    },
+    "BBE": {
+     "text": "There are words without number for increasing what is to no purpose, but what is man profited by them?",
+     "words": [
+      "to no purpose"
+     ]
+    },
+    "KJV": {
+     "text": "¶ Seeing there be many things that increase vanity, what is man the better?",
+     "words": [
+      "vanity"
+     ]
+    }
+   }
+  },
+  {
+   "ref": "6:12",
+   "chapter": 6,
+   "verse": 12,
+   "count": 1,
+   "renderings": {
+    "BSB": {
+     "text": "For who knows what is good for a man during the few days in which he passes through his fleeting life like a shadow? Who can tell a man what will come after him under the sun?",
+     "words": [
+      "fleeting"
+     ]
+    },
+    "WEB": {
+     "text": "For who knows what is good for man in life, all the days of his vain life which he spends like a shadow? For who can tell a man what will be after him under the sun?",
+     "words": [
+      "vain"
+     ]
+    },
+    "FBV": {
+     "text": "Who knows what's best for us and our lives? During our short lives that pass like shadows we have many unanswered questions. And who can tell us what will happen when we're gone?",
+     "words": [
+      "pass like shadows"
+     ]
+    },
+    "LSV": {
+     "text": "For who knows what [is] good for a man in life, the number of the days of the life of his vanity, and he makes them as a shadow? For who declares to man what is after him under the sun?",
+     "words": [
+      "vanity"
+     ]
+    },
+    "BBE": {
+     "text": "Who is able to say what is good for man in life all the days of his foolish life which he goes through like a shade? who will say what is to be after him under the sun?",
+     "words": [
+      "foolish"
+     ]
+    },
+    "KJV": {
+     "text": "For who knoweth what is good for man in this life, all the days of his vain life which he spendeth as a shadow? for who can tell a man what shall be after him under the sun?",
+     "words": [
+      "vain"
+     ]
+    }
+   }
+  },
+  {
+   "ref": "7:6",
+   "chapter": 7,
+   "verse": 6,
+   "count": 1,
+   "renderings": {
+    "BSB": {
+     "text": "For like the crackling of thorns under the pot, so is the laughter of the fool. This too is futile.",
+     "words": [
+      "futile"
+     ]
+    },
+    "WEB": {
+     "text": "For as the crackling of thorns under a pot, so is the laughter of the fool. This also is vanity.",
+     "words": [
+      "vanity"
+     ]
+    },
+    "FBV": {
+     "text": "The laughter of fools is like the crackling of thorn twigs burning under a pot—without sense and quickly over.",
+     "words": [
+      "quickly over"
+     ]
+    },
+    "LSV": {
+     "text": "For as the noise of thorns under the pot, || So [is] the laughter of a fool, even this [is] vanity.",
+     "words": [
+      "vanity"
+     ]
+    },
+    "BBE": {
+     "text": "Like the cracking of thorns under a pot, so is the laugh of a foolish man; and this again is to no purpose.",
+     "words": [
+      "to no purpose"
+     ]
+    },
+    "KJV": {
+     "text": "For as the crackling of thorns under a pot, so is the laughter of the fool: this also is vanity.",
+     "words": [
+      "vanity"
+     ]
+    }
+   }
+  },
+  {
+   "ref": "7:15",
+   "chapter": 7,
+   "verse": 15,
+   "count": 1,
+   "renderings": {
+    "BSB": {
+     "text": "In my futile life I have seen both of these: A righteous man perishing in his righteousness, and a wicked man living long in his wickedness.",
+     "words": [
+      "futile"
+     ]
+    },
+    "WEB": {
+     "text": "All this I have seen in my days of vanity: there is a righteous man who perishes in his righteousness, and there is a wicked man who lives long in his evildoing.",
+     "words": [
+      "vanity"
+     ]
+    },
+    "FBV": {
+     "text": "Throughout my life I've seen so much that is hard to understand. Good people who die young despite doing what is right, and wicked people who live long evil lives.",
+     "words": [
+      "hard to understand"
+     ]
+    },
+    "LSV": {
+     "text": "The whole I have considered in the days of my vanity. There is a righteous one perishing in his righteousness, and there is a wrongdoer prolonging [himself] in his wrong.",
+     "words": [
+      "vanity"
+     ]
+    },
+    "BBE": {
+     "text": "These two have I seen in my life which is to no purpose: a good man coming to his end in his righteousness, and an evil man whose days are long in his evil-doing.",
+     "words": [
+      "to no purpose"
+     ]
+    },
+    "KJV": {
+     "text": "All things have I seen in the days of my vanity: there is a just man that perisheth in his righteousness, and there is a wicked man that prolongeth his life in his wickedness.",
+     "words": [
+      "vanity"
+     ]
+    }
+   }
+  },
+  {
+   "ref": "8:10",
+   "chapter": 8,
+   "verse": 10,
+   "count": 1,
+   "renderings": {
+    "BSB": {
+     "text": "Then too, I saw the burial of the wicked who used to go in and out of the holy place, and they were praised in the city where they had done so. This too is futile.",
+     "words": [
+      "futile"
+     ]
+    },
+    "WEB": {
+     "text": "So I saw the wicked buried. Indeed they came also from holiness. They went and were forgotten in the city where they did this. This also is vanity.",
+     "words": [
+      "vanity"
+     ]
+    },
+    "FBV": {
+     "text": "Yes, I have seen wicked people buried with great honor. They used to go to the holy place, and were praised in the very city where they did their evil. This is hard to understand!",
+     "words": [
+      "hard to understand"
+     ]
+    },
+    "LSV": {
+     "text": "And so I have seen the wicked buried, and they went in, even from the Holy Place they go, and they are forgotten in the city whether they had so done. This [is] also vanity.",
+     "words": [
+      "vanity"
+     ]
+    },
+    "BBE": {
+     "text": "And then I saw evil men put to rest, taken even from the holy place; and they went about and were praised in the town because of what they had done. This again is to no purpose.",
+     "words": [
+      "to no purpose"
+     ]
+    },
+    "KJV": {
+     "text": "And so I saw the wicked buried, who had come and gone from the place of the holy, and they were forgotten in the city where they had so done: this is also vanity.",
+     "words": [
+      "vanity"
+     ]
+    }
+   }
+  },
+  {
+   "ref": "8:14",
+   "chapter": 8,
+   "verse": 14,
+   "count": 2,
+   "renderings": {
+    "BSB": {
+     "text": "There is a futility that is done on the earth: There are righteous men who get what the actions of the wicked deserve, and there are wicked men who get what the actions of the righteous deserve. I say that this too is futile.",
+     "words": [
+      "futility",
+      "futile"
+     ]
+    },
+    "WEB": {
+     "text": "There is a vanity which is done on the earth, that there are righteous men to whom it happens according to the work of the wicked. Again, there are wicked men to whom it happens according to the work of the righteous. I said that this also is vanity.",
+     "words": [
+      "vanity",
+      "vanity"
+     ]
+    },
+    "FBV": {
+     "text": "Another thing that is hard to understand is this: good people are treated as the wicked should be, and the wicked are treated as good people should be. As I say, this is difficult to comprehend!",
+     "words": [
+      "hard to understand"
+     ]
+    },
+    "LSV": {
+     "text": "There is a vanity that has been done on the earth, that there are righteous ones to whom it is coming according to the work of the wicked, and there are wicked ones to whom it is coming according to the work of the righteous. I have said that this [is] also vanity.",
+     "words": [
+      "vanity",
+      "vanity"
+     ]
+    },
+    "BBE": {
+     "text": "There is a thing which is to no purpose done on the earth: that there are good men to whom is given the same punishment as those who are evil, and there are evil men who get the reward of the good. I say that this again is to no purpose.",
+     "words": [
+      "to no purpose",
+      "to no purpose"
+     ]
+    },
+    "KJV": {
+     "text": "There is a vanity which is done upon the earth; that there be just men, unto whom it happeneth according to the work of the wicked; again, there be wicked men, to whom it happeneth according to the work of the righteous: I said that this also is vanity.",
+     "words": [
+      "vanity",
+      "vanity"
+     ]
+    }
+   }
+  },
+  {
+   "ref": "9:9",
+   "chapter": 9,
+   "verse": 9,
+   "count": 2,
+   "renderings": {
+    "BSB": {
+     "text": "Enjoy life with your beloved wife all the days of the fleeting life that God has given you under the sun—all your fleeting days. For this is your portion in life and in your labor under the sun.",
+     "words": [
+      "fleeting",
+      "fleeting"
+     ]
+    },
+    "WEB": {
+     "text": "Live joyfully with the wife whom you love all the days of your life of vanity, which he has given you under the sun, all your days of vanity, for that is your portion in life, and in your labor in which you labor under the sun.",
+     "words": [
+      "vanity",
+      "vanity"
+     ]
+    },
+    "FBV": {
+     "text": "Enjoy life with the wife that you love—the one God gave you—during all the days of this brief life, all these passing days whose meaning is so hard to understand as you work here on earth.",
+     "words": [
+      "so hard to understand"
+     ]
+    },
+    "LSV": {
+     "text": "See life with the wife whom you have loved, all the days of the life of your vanity, that He has given to you under the sun, all the days of your vanity, for it [is] your portion in life, even of your labor that you are laboring at under the sun.",
+     "words": [
+      "vanity",
+      "vanity"
+     ]
+    },
+    "BBE": {
+     "text": "Have joy with the woman of your love all the days of your foolish life which he gives you under the sun. Because that is your part in life and in your work which you do under the sun.",
+     "words": [
+      "foolish"
+     ]
+    },
+    "KJV": {
+     "text": "Live joyfully with the wife whom thou lovest all the days of the life of thy vanity, which he hath given thee under the sun, all the days of thy vanity: for that is thy portion in this life, and in thy labour which thou takest under the sun.",
+     "words": [
+      "vanity",
+      "vanity"
+     ]
+    }
+   }
+  },
+  {
+   "ref": "11:8",
+   "chapter": 11,
+   "verse": 8,
+   "count": 1,
+   "renderings": {
+    "BSB": {
+     "text": "So if a man lives many years, let him rejoice in them all. But let him remember the days of darkness, for they will be many. Everything to come is futile.",
+     "words": [
+      "futile"
+     ]
+    },
+    "WEB": {
+     "text": "Yes, if a man lives many years, let him rejoice in them all; but let him remember the days of darkness, for they shall be many. All that comes is vanity.",
+     "words": [
+      "vanity"
+     ]
+    },
+    "FBV": {
+     "text": "May you live for many years, and may you enjoy them all. But remember there will be many days of darkness, and all that is to come is uncertain.",
+     "words": [
+      "uncertain"
+     ]
+    },
+    "LSV": {
+     "text": "But if man lives many years, || In all of them let him rejoice, || And remember the days of darkness, || For they are many! All that is coming [is] vanity.",
+     "words": [
+      "vanity"
+     ]
+    },
+    "BBE": {
+     "text": "But even if a man's life is long and he has joy in all his years, let him keep in mind the dark days, because they will be great in number. Whatever may come is to no purpose.",
+     "words": [
+      "to no purpose"
+     ]
+    },
+    "KJV": {
+     "text": "But if a man live many years, and rejoice in them all; yet let him remember the days of darkness; for they shall be many. All that cometh is vanity.",
+     "words": [
+      "vanity"
+     ]
+    }
+   }
+  },
+  {
+   "ref": "11:10",
+   "chapter": 11,
+   "verse": 10,
+   "count": 1,
+   "renderings": {
+    "BSB": {
+     "text": "So banish sorrow from your heart, and cast off pain from your body, for youth and vigor are fleeting.",
+     "words": [
+      "fleeting"
+     ]
+    },
+    "WEB": {
+     "text": "Therefore remove sorrow from your heart, and put away evil from your flesh; for youth and the dawn of life are vanity.",
+     "words": [
+      "vanity"
+     ]
+    },
+    "FBV": {
+     "text": "So don't let your mind worry, and avoid things that hurt your body. Even so, despite youth and enthusiasm, life is still so hard to understand!",
+     "words": [
+      "so hard to understand"
+     ]
+    },
+    "LSV": {
+     "text": "And turn aside anger from your heart, || And cause evil to pass from your flesh, || For the childhood and the age [are] vanity!",
+     "words": [
+      "vanity"
+     ]
+    },
+    "BBE": {
+     "text": "So put away trouble from your heart, and sorrow from your flesh; because the early years and the best years are to no purpose.",
+     "words": [
+      "to no purpose"
+     ]
+    },
+    "KJV": {
+     "text": "Therefore remove sorrow from thy heart, and put away evil from thy flesh: for childhood and youth are vanity.",
+     "words": [
+      "vanity"
+     ]
+    }
+   }
+  },
+  {
+   "ref": "12:8",
+   "chapter": 12,
+   "verse": 8,
+   "count": 3,
+   "renderings": {
+    "BSB": {
+     "text": "“Futility of futilities,” says the Teacher. “Everything is futile!”",
+     "words": [
+      "Futility of futilities",
+      "futile"
+     ]
+    },
+    "WEB": {
+     "text": "“Vanity of vanities,” says the Preacher. “All is vanity!”",
+     "words": [
+      "Vanity of vanities",
+      "vanity"
+     ]
+    },
+    "FBV": {
+     "text": "“Everything passes! It's all so hard to understand!” says the Teacher.",
+     "words": [
+      "so hard to understand",
+      "Everything passes"
+     ]
+    },
+    "LSV": {
+     "text": "Vanity of vanities, said the preacher, the whole [is] vanity.",
+     "words": [
+      "Vanity of vanities",
+      "vanity"
+     ]
+    },
+    "BBE": {
+     "text": "All things are to no purpose, says the Preacher, all is to no purpose.",
+     "words": [
+      "to no purpose",
+      "to no purpose"
+     ]
+    },
+    "KJV": {
+     "text": "¶ Vanity of vanities, saith the preacher; all is vanity.",
+     "words": [
+      "Vanity of vanities",
+      "vanity"
+     ]
+    }
+   }
+  }
+ ]
+}
