@@ -11,13 +11,13 @@
       "chapters": [
         1
       ],
-      "mins": 54,
+      "mins": 51,
       "question": "If nobody remembers it in fifty years, did it matter?",
       "summary": "The book opens by telling you its conclusion before it shows any work. Then a poem about a world in constant motion that never actually gets anywhere.",
       "prep": [
         "Read Ecclesiastes 1:1–11 once before you come. That is genuinely all the prep this needs.",
         "The one thing worth knowing: the Hebrew word behind “vanity” or “futile” is <b>hevel</b>, which literally means <b>vapour</b> — breath on a cold morning. Not “worthless.” Not “fake.” Just impossible to hold onto. Almost everything in this book turns on that.",
-        "Do not resolve it for them. The book takes twelve chapters to get somewhere; if you jump to the answer in week one, the other nine weeks have nothing to do."
+        "Do not resolve it for them. The book takes twelve chapters to get somewhere. The video names the conclusion in a single line right at the end — that is a hook, not an answer, and the second question after the video is there to keep it that way."
       ],
       "steps": [
         {
@@ -42,42 +42,43 @@
         },
         {
           "kind": "watch",
-          "title": "The whole book in eight minutes",
-          "mins": 18,
+          "title": "Two voices, and three uncomfortable facts",
+          "mins": 15,
           "video": {
-            "youtubeId": "lrsQ1tc-2wk",
-            "title": "Book of Ecclesiastes Summary: A Complete Animated Overview",
+            "youtubeId": "VeUiuSK81-0",
+            "title": "The Disturbing But Surprising Wisdom of Ecclesiastes",
             "channel": "BibleProject",
-            "duration": "8:01",
+            "duration": "6:41",
+            "end": 333,
             "pauses": [
               {
-                "at": 135,
-                "atLabel": "2:15",
-                "q": "He gives two examples of vapour: good things that get snatched away, and good people who get treated badly. Which of those two bothers you more?",
-                "hint": "Neither is the right answer. If someone picks the justice one, ask where they got the expectation that the world owes anyone fairness."
+                "at": 76,
+                "atLabel": "1:16",
+                "q": "It says there are two people talking in this book — a critic, and an author who quotes him and gets the last word. Look at verse 1 and 2 again. Which one is speaking there?",
+                "hint": "Verse 1 is someone describing the Teacher in the third person. The Teacher himself does not start speaking until 1:12. Let them find that."
               },
               {
-                "at": 264,
-                "atLabel": "4:24",
-                "q": "In 1:4-7 his evidence is nature — the sun, the wind, the rivers, all going round and never arriving anywhere. Is that a picture of pointlessness, or of something reliable?",
-                "hint": "The same cycles that look futile to him are the ones keeping everyone alive. If they all land on bleak, ask what a world without those cycles would actually be like."
+                "at": 117,
+                "atLabel": "1:57",
+                "q": "That section is almost word for word the passage we are about to read. He says the reason nothing feels new is that nobody remembers. Is being forgotten actually a bad thing?",
+                "hint": "Push past the reflex \"yes\". Ask what they would want remembered, by whom, and for how long — and what happens after that."
               },
               {
-                "at": 391,
-                "atLabel": "6:31",
-                "q": "His way out is to stop trying to control any of it. Chapter 1 has not got anywhere near that yet. Does that sound like wisdom to you, or like giving up?",
-                "hint": "Do not settle it. If someone says giving up, ask what the alternative is and whether they are managing it."
+                "at": 209,
+                "atLabel": "3:29",
+                "q": "It just said the Teacher uses one word nearly forty times to tie all of this together — hevel. Before it tells you: what do you think a word doing that much work would have to mean?",
+                "hint": "Take a few guesses first, then resume. It answers in the next fifteen seconds, and their guesses are usually closer than \"meaningless\"."
               }
             ]
           },
-          "noVideo": "Skip it, read Ecclesiastes 1:1-11 aloud first, and set it up with one line: a king who had everything wrote a report on whether it was worth it, and this is the report.",
+          "noVideo": "Skip it and read Ecclesiastes 1:1–11 aloud first. Set it up with one line: a man who had everything wrote a report on whether any of it was worth it, and this is the report.",
           "asks": [
             {
-              "q": "Ecclesiastes 1:1-2 is not the teacher talking, it is someone else quoting him. Does having a second voice frame the whole book make you trust the teacher more, or less?",
-              "hint": "Scholars do not agree either. Some think the frame rescues the book, others think it defangs it."
+              "q": "It says modern translations \"lost the metaphor\" by using the word meaningless. That is a claim that most Bibles get this book wrong. Do you buy it?",
+              "hint": "The Vapor page in the menu shows all 28 English words the six translations use. Worth pulling up if they want the evidence."
             },
             {
-              "q": "That gave you the ending in eight minutes. The eleven verses we are about to read do not have one. Which of the two is closer to how things actually feel to you?"
+              "q": "It gave away the ending in one line at the very end. Does that land as an answer to any of this, or as something you would need eleven more chapters to earn?"
             }
           ]
         },
@@ -1454,7 +1455,7 @@
       "chapters": [
         12
       ],
-      "mins": 55,
+      "mins": 57,
       "question": "Six verses to make sense of a whole book. Does it work?",
       "summary": "Someone else takes the microphone. A narrator steps in, tells you what to make of everything Qohelet said, and closes the book. The last session is as much about the ten weeks as the six verses.",
       "prep": [
@@ -1482,46 +1483,44 @@
         },
         {
           "kind": "watch",
-          "title": "The whole book, one more time",
-          "mins": 15,
+          "title": "The whole book, now that you have read it",
+          "mins": 17,
           "video": {
-            "youtubeId": "VeUiuSK81-0",
-            "title": "The Disturbing But Surprising Wisdom of Ecclesiastes",
+            "youtubeId": "lrsQ1tc-2wk",
+            "title": "Book of Ecclesiastes Summary: A Complete Animated Overview",
             "channel": "BibleProject",
-            "duration": "6:42",
-            "end": 344,
+            "duration": "8:01",
             "pauses": [
               {
-                "at": 32,
-                "atLabel": "0:32",
-                "q": "You have read the whole book. Whose voice do you trust more — the man who talks for twelve chapters, or the one who sums him up at the end?",
-                "hint": "If they all pick the same one, ask what the other voice would say back. Don't settle it; scholars haven't."
+                "at": 90,
+                "atLabel": "1:30",
+                "q": "It says the Teacher is a character, and the author who quotes him is someone else. You have just read the six verses where that second voice takes over. Did you feel the handover when we read it?",
+                "hint": "If nobody did, read 12:9 aloud again straight after — \"the Teacher was wise, he taught\" — and ask who is talking."
               },
               {
-                "at": 217,
-                "atLabel": "3:37",
-                "q": "The last six verses are this book's answer to that question. What would you have written there instead?",
-                "hint": "If it stalls, give them a minute to write one sentence each. Keep them — you can put them next to 12:13 when you read it."
+                "at": 383,
+                "atLabel": "6:23",
+                "q": "Ten weeks ago none of this had happened yet. Watching it now, is there anything the video says about the book that you would argue with?",
+                "hint": "They have read the whole thing and it has not. Genuinely invite the disagreement — this is the one week they can win the argument."
               },
               {
-                "at": 279,
-                "atLabel": "4:39",
-                "q": "It says this book can take you somewhere dark. Would you hand it to someone who was already there?",
-                "hint": "Narrow it if it goes quiet: would you have wanted this book in a bad week? Ask whether their answer changes for a friend versus themselves. 12:11-12 is the narrator asking a version of the same thing."
+                "at": 426,
+                "atLabel": "7:06",
+                "q": "A goad is a sharp stick for driving livestock. That is what 12:11 calls this book. Did it do that to you, or did it slide off?",
+                "hint": "\"It slid off\" is a completely acceptable answer and a more useful one than a polite yes."
               }
             ]
           },
           "asks": [
             {
-              "q": "You watched this in week seven, halfway through. Does it describe the book you actually ended up reading?",
-              "hint": "Say it is a repeat before you press play. They will spot it, and it goes better if you name it first — the point is that they have finished the thing now."
+              "q": "That is the whole book in eight minutes. What did it leave out that you would have kept?"
             },
             {
-              "q": "It lands on fear God and keep his commandments. Say what that means in your own words, without using the word fear.",
-              "hint": "Session three left this open on purpose and said it would come back in chapter twelve. This is it coming back."
+              "q": "It ends on hope — that one day God clears away the hevel. Is that in the text we just read, or is that the video adding something?",
+              "hint": "12:14 does say God brings every deed into judgement. Whether that amounts to hope is exactly the argument worth having."
             }
           ],
-          "noVideo": "Skip it, read 12:9-14 aloud twice, and ask what they would have written at the end of this book instead — the ten-week look-back is the session and it needs no video."
+          "noVideo": "Not needed. Read 12:9–14 twice instead — once straight through, once slowly — and spend the time on looking back over the ten weeks."
         },
         {
           "kind": "read",
