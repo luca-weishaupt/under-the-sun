@@ -1,7 +1,7 @@
 /** Router and boot. Hash routing so the site works on GitHub Pages with no config. */
 
-import { applyTheme, cycleTheme } from './store.js';
-import { esc } from './ui.js';
+import { applyTheme, cycleTheme, applyView, toggleView } from './store.js';
+import { esc, paintViewToggles } from './ui.js';
 
 import { home } from './views/home.js';
 import { session } from './views/session.js';
@@ -11,6 +11,7 @@ import { leading } from './views/leading.js';
 import { credits } from './views/credits.js';
 
 applyTheme();
+applyView();
 
 const main = document.querySelector('#main');
 
@@ -55,6 +56,7 @@ async function route() {
       console.error(err);
     }
     syncNav(path);
+    paintViewToggles(main);
     // A fresh view starts at the top unless the URL asked for an anchor.
     if (!location.hash.includes('#', 1)) window.scrollTo({ top: 0, behavior: 'instant' });
     main.focus({ preventScroll: true });
@@ -78,6 +80,24 @@ function syncNav(path) {
     if (active) link.setAttribute('aria-current', 'page');
   }
 }
+
+/* Leader/Group switches are delegated, so a view can render as many as it
+   likes without wiring any of them up itself. */
+document.addEventListener('click', (event) => {
+  if (!event.target.closest('[data-view-toggle]')) return;
+  toggleView();
+  paintViewToggles();
+});
+
+// The switch gets flipped mid-sentence, so it needs a key as well as a button.
+document.addEventListener('keydown', (event) => {
+  if (event.key !== 'l' && event.key !== 'L') return;
+  if (event.metaKey || event.ctrlKey || event.altKey) return;
+  const el = event.target;
+  if (el.isContentEditable || /^(INPUT|TEXTAREA|SELECT)$/.test(el.tagName)) return;
+  toggleView();
+  paintViewToggles();
+});
 
 document.querySelector('#theme-toggle').addEventListener('click', (event) => {
   const next = cycleTheme();

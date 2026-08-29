@@ -154,7 +154,9 @@
           "title": "One thing to notice",
           "mins": 5,
           "body": [
-            "Don't summarise. Give them one thing to carry:",
+            "Don't summarise. Give them one thing to carry:"
+          ],
+          "takeaway": [
             "<b>This week, notice one thing you're chasing that you know you won't be able to keep.</b> Not to feel bad about it. Just to notice that you know."
           ],
           "asks": [
@@ -320,8 +322,11 @@
           "kind": "land",
           "title": "One thing to notice",
           "mins": 5,
-          "body": [
-            "<b>This week: eat one meal without your phone and notice whether it is actually good.</b> That is genuinely the assignment. He is serious about it."
+          "takeaway": [
+            "<b>This week: eat one meal without your phone and notice whether it is actually good.</b>"
+          ],
+          "leader": [
+            "That is genuinely the assignment. He is serious about it."
           ]
         }
       ]
@@ -463,7 +468,7 @@
           "kind": "land",
           "title": "One thing to notice",
           "mins": 5,
-          "body": [
+          "takeaway": [
             "<b>This week: notice one thing you can't control that you keep trying to.</b> Not to fix it. Just to see it clearly."
           ]
         }
@@ -608,7 +613,7 @@
           "kind": "land",
           "title": "One thing to notice",
           "mins": 5,
-          "body": [
+          "takeaway": [
             "<b>This week: do one useful thing that nobody will find out about.</b> Then notice how it felt to not be able to tell anyone."
           ]
         }
@@ -819,7 +824,7 @@
           "kind": "land",
           "title": "One thing to notice",
           "mins": 5,
-          "body": [
+          "takeaway": [
             "<b>This week: notice the moment you think “once I have that, I'll be fine.”</b> You don't have to do anything about it. Just catch it happening."
           ]
         }
@@ -962,7 +967,7 @@
           "kind": "land",
           "title": "One thing to notice",
           "mins": 5,
-          "body": [
+          "takeaway": [
             "<b>This week: when something goes badly, sit in it for ten minutes before you fix it or distract yourself.</b> Verse 14 calls that considering."
           ]
         }
@@ -1106,7 +1111,7 @@
           "kind": "land",
           "title": "One thing to notice",
           "mins": 5,
-          "body": [
+          "takeaway": [
             "<b>This week: do one thing with your whole effort that has no reward attached.</b> 9:10, taken literally."
           ]
         }
@@ -1302,7 +1307,7 @@
           "kind": "land",
           "title": "One thing to notice",
           "mins": 5,
-          "body": [
+          "takeaway": [
             "<b>This week: do the thing you've been waiting for more information about.</b> 11:4 — whoever watches the wind will never sow."
           ]
         }
@@ -1441,7 +1446,7 @@
           "kind": "land",
           "title": "One thing to notice",
           "mins": 5,
-          "body": [
+          "takeaway": [
             "<b>This week: notice one ordinary good thing and don't rush past it.</b> Light is sweet. He waited eleven chapters to say that."
           ]
         }

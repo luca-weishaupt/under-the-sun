@@ -6,7 +6,7 @@
  * working with no signal at all.
  */
 
-const CACHE = 'underthesun-v1';
+const CACHE = 'underthesun-v2';
 
 const CORE = [
   './',

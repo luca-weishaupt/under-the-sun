@@ -126,13 +126,12 @@ a:hover { color: var(--accent-hover); }
 }
 
 /* --- top bar -------------------------------------------------------------- */
+/* Deliberately not sticky. On a projector every pixel of chrome that never
+   scrolls away is a pixel the room does not get to read. */
 .topbar {
-  position: sticky; top: 0; z-index: 40;
   display: flex; align-items: center; gap: 1.25rem;
   padding: .7rem max(1.25rem, env(safe-area-inset-left)) .7rem max(1.25rem, env(safe-area-inset-right));
-  background: color-mix(in srgb, var(--paper) 88%, transparent);
-  backdrop-filter: saturate(1.5) blur(12px);
-  -webkit-backdrop-filter: saturate(1.5) blur(12px);
+  background: var(--paper);
   border-bottom: 1px solid var(--rule);
 }
 .topbar__brand {
@@ -296,24 +295,42 @@ h3 { font-size: 1.0625rem; }
 
 /* --- session runner ------------------------------------------------------- */
 .runbar {
-  position: sticky; top: 49px; z-index: 30;
+  position: sticky; top: 0; z-index: 30;
   background: color-mix(in srgb, var(--paper) 92%, transparent);
   backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
   border-bottom: 1px solid var(--rule);
 }
 .runbar__inner {
   max-width: var(--page); margin-inline: auto;
-  display: flex; align-items: center; gap: .75rem;
+  display: flex; align-items: center; gap: .5rem .75rem;
   padding: .55rem max(1.25rem, env(safe-area-inset-left));
 }
 .runbar__label { font-size: .8125rem; color: var(--ink-muted); min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .runbar__steps { display: flex; gap: 4px; margin-inline-start: auto; }
+.runbar__label { flex: 0 1 auto; }
 .runbar__steps button {
   width: 26px; height: 5px; padding: 0; border: 0; border-radius: 2px; cursor: pointer;
   background: var(--rule-strong); transition: background var(--step);
 }
 .runbar__steps button[aria-current="true"] { background: var(--accent); }
 .runbar__steps button[data-passed="true"] { background: var(--accent-line); }
+
+/* Leader view / Group view. The one control that has to be reachable without
+   scrolling, because it gets flipped mid-sentence. */
+.viewtog {
+  display: inline-flex; align-items: center; gap: .4rem; flex: none;
+  padding: .28rem .6rem; cursor: pointer;
+  font-size: .8125rem; font-weight: 550;
+  background: var(--paper-sunk); color: var(--ink-muted);
+  border: 1px solid var(--rule); border-radius: 999px;
+  transition: background var(--step), color var(--step), border-color var(--step);
+}
+.viewtog:hover { color: var(--ink); border-color: var(--rule-strong); }
+.viewtog svg { width: 15px; height: 15px; flex: none; }
+.viewtog[aria-pressed="false"] {
+  background: var(--accent-wash); color: var(--accent); border-color: var(--accent-line);
+}
+@media (max-width: 560px) { .viewtog__label { display: none; } }
 
 .clock {
   font-family: var(--font-mono); font-size: .8125rem; font-variant-numeric: tabular-nums;
@@ -323,60 +340,16 @@ h3 { font-size: 1.0625rem; }
 }
 .clock[data-over="true"] { color: var(--accent); border-color: var(--accent-line); background: var(--accent-wash); }
 
-/* Session pages get a second column on wide screens: the reading measure stays
-   at a sane width, and the space to its right carries the running order, which
-   is what a leader keeps glancing at. */
-.wrap--session { max-width: 78rem; }
+/* One centred column. The step list and clock live in the run bar above, so
+   the reading column keeps the middle of the screen instead of being pushed
+   off-centre by a menu nobody in the room is reading. */
+/* A slightly wider reading measure than the rest of the site: this page gets
+   read off a screen at the far end of a room, not held in one hand. */
+.wrap--session { max-width: 50rem; --measure: 38rem; }
 .sesh { display: block; }
 .sesh__main { min-width: 0; }
-.sesh__rail { display: none; }
 
-@media (min-width: 1080px) {
-  /* A fixed reading column rather than 1fr — a text column that grows with the
-     window just leaves a gutter of dead space next to the rail. */
-  .sesh {
-    display: grid; grid-template-columns: minmax(0, 38rem) 15.5rem;
-    gap: 0 4rem; align-items: start; justify-content: center;
-  }
-  .sesh__rail { display: block; position: sticky; top: 5.5rem; }
-  .runbar { display: none; }
-}
-
-.rail {
-  border: 1px solid var(--rule); border-radius: var(--radius-lg);
-  background: var(--paper-raised); padding: .9rem;
-  box-shadow: var(--shadow-sm);
-}
-.rail__clock { display: flex; align-items: baseline; gap: .55rem; margin-bottom: .8rem; }
-.clock--lg { font-size: 1rem; padding: .35rem .6rem; }
-.rail__budget { font-size: .75rem; color: var(--ink-faint); }
-
-.rail__steps { list-style: none; margin: 0; padding: 0; display: grid; gap: 1px; }
-.rail__steps button {
-  display: grid; grid-template-columns: 1fr auto; gap: 0 .5rem;
-  width: 100%; text-align: start; cursor: pointer;
-  padding: .45rem .55rem; border: 0; border-radius: 7px;
-  background: transparent; color: var(--ink-muted);
-  border-inline-start: 2px solid transparent;
-  transition: background var(--step), color var(--step), border-color var(--step);
-}
-.rail__steps button:hover { background: var(--paper-sunk); color: var(--ink); }
-.rail__steps button[aria-current="true"] {
-  background: var(--accent-wash); border-inline-start-color: var(--accent); color: var(--ink);
-}
-.rail__steps button[data-passed="true"] .rail__kind { color: var(--accent); }
-.rail__kind {
-  grid-column: 1; grid-row: 1;
-  font-size: .625rem; font-weight: 600; letter-spacing: .1em; text-transform: uppercase;
-  color: var(--ink-faint);
-}
-.rail__name { grid-column: 1; grid-row: 2; font-size: .8125rem; line-height: 1.3; }
-.rail__mins {
-  grid-column: 2; grid-row: 1 / span 2; align-self: center;
-  font-family: var(--font-mono); font-size: .6875rem; color: var(--ink-faint);
-}
-
-.step { padding-block: 2.25rem; border-top: 1px solid var(--rule); scroll-margin-top: 7rem; }
+.step { padding-block: 2.25rem; border-top: 1px solid var(--rule); scroll-margin-top: 4.25rem; }
 .step:first-of-type { border-top: 0; }
 .step__head { display: flex; align-items: baseline; gap: .75rem; margin-bottom: 1rem; }
 .step__kicker { font-size: .75rem; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; color: var(--accent); }
@@ -467,6 +440,19 @@ h3 { font-size: 1.0625rem; }
 }
 .ask__hint b { color: var(--ink-faint); font-weight: 600; flex: none; }
 
+/* --- takeaway ------------------------------------------------------------- */
+/* The "this week" line. Group-facing by definition — it is the sentence the
+   room is meant to walk out holding, so it survives into Group view. */
+.takeaway {
+  max-width: var(--measure); margin: 1.6rem 0; padding: 1.05rem 1.2rem;
+  background: var(--accent-wash);
+  border: 1px solid var(--accent-line); border-radius: var(--radius-lg);
+  font-family: var(--font-serif); font-size: 1.125rem; line-height: 1.5;
+  text-wrap: pretty;
+}
+.takeaway p + p { margin-top: .5em; }
+.takeaway b, .takeaway strong { font-weight: 600; }
+
 /* --- leader notes --------------------------------------------------------- */
 .lead {
   max-width: var(--measure); margin: 1.25rem 0;
@@ -489,7 +475,7 @@ h3 { font-size: 1.0625rem; }
 .lead__body strong { color: var(--ink); font-weight: 600; }
 
 /* --- video ---------------------------------------------------------------- */
-.video { max-width: 44rem; margin-block: 1.25rem; }
+.video { max-width: none; margin-block: 1.25rem; }
 .video__frame {
   position: relative; aspect-ratio: 16 / 9; overflow: hidden;
   border-radius: var(--radius); border: 1px solid var(--rule);
@@ -519,8 +505,30 @@ h3 { font-size: 1.0625rem; }
 /* Inline icons carry no intrinsic size, so without this they render enormous. */
 .video__meta svg, .stop svg, .lead svg { width: 13px; height: 13px; flex: none; }
 
+/* Theater. The width and the horizontal pull are measured in JS — the video
+   sits in a centred column, so no pure-CSS full-bleed trick lands it on the
+   viewport's centre rather than the column's. */
+.video--theater {
+  width: var(--theater-w, 100vw);
+  max-width: none;
+  margin-inline-start: var(--theater-x, 0);
+  margin-block: 1.5rem;
+  scroll-margin-top: 3.5rem; /* clear the run bar when it scrolls itself in */
+}
+.video--theater .video__frame {
+  max-width: calc((100dvh - 8rem) * 16 / 9);
+  margin-inline: auto;
+  border-radius: 0; border-inline: 0;
+  background: #000; box-shadow: none;
+}
+.video--theater .video__meta,
+.video--theater .stops {
+  max-width: 50rem; margin-inline: auto;
+  padding-inline: max(1.25rem, env(safe-area-inset-left));
+}
+
 /* --- video stops ---------------------------------------------------------- */
-.stops { max-width: 44rem; margin-top: 1rem; }
+.stops { max-width: none; margin-top: 1rem; }
 .stops__head {
   font-size: .8125rem; color: var(--ink-faint); margin-bottom: .6rem;
 }
@@ -650,13 +658,31 @@ table.plain th { font-size: .75rem; letter-spacing: .06em; text-transform: upper
   .topbar__title { display: none; }
   .wrap { padding-top: 1.75rem; }
   .scripture { font-size: 1.125rem; }
-  .runbar { top: 49px; }
   .compare dl, .occ dl { grid-template-columns: 2.7rem 1fr; }
+}
+
+/* The run bar is the only chrome left, so it has to survive a narrow phone:
+   the session name gives way first, then the step dots tighten up. */
+@media (max-width: 560px) {
+  .runbar__inner { gap: .5rem; padding-inline: .75rem; }
+  .runbar__label { display: none; }
+  .runbar__steps { margin-inline-start: 0; }
+  .runbar__steps button { width: 18px; }
+}
+
+/* --- group view ----------------------------------------------------------- */
+/* Everything a leader needs *around* the session — stage directions, stalling
+   prompts, prep, the handoff — carries .leaderonly and drops out when the
+   screen is pointed at the room. What is left is only what guides the talking.
+   Screen-scoped: a printout is for the leader, so it keeps the lot. */
+@media screen {
+  :root[data-view="group"] .leaderonly { display: none !important; }
+  :root[data-view="group"] .step__mins { display: none; }
 }
 
 /* --- print ---------------------------------------------------------------- */
 @media print {
-  .topbar, .sitefoot, .runbar, .sesh__rail, .btnrow, .handoff, .seg, .toolbar, .video__poster, .skip-link { display: none !important; }
+  .topbar, .sitefoot, .runbar, .btnrow, .handoff, .seg, .toolbar, .video__poster, .skip-link { display: none !important; }
   body { background: #fff; color: #000; font-size: 11pt; }
   .wrap { max-width: none; padding: 0; }
   .sesh { display: block !important; }

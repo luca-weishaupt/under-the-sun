@@ -11,7 +11,7 @@
 
 import { loadSessions, loadTranslation, translations } from '../data.js';
 import { store } from '../store.js';
-import { esc, ICONS, copyToClipboard, wireVerseCompare, translationPicker, wireTranslationPicker } from '../ui.js';
+import { esc, ICONS, copyToClipboard, wireVerseCompare, translationPicker, wireTranslationPicker, viewToggleHTML } from '../ui.js';
 import { extract, render, formatRef } from '../scripture.js';
 
 const STEP_LABEL = {
@@ -26,17 +26,22 @@ function asksHTML(asks) {
   return `<div class="ask">
     ${asks.map((a) => `<p class="ask__q">${esc(a.q)}</p>`).join('')}
     ${asks.filter((a) => a.hint).map((a) => `
-      <p class="ask__hint"><b>If it stalls</b><span>${esc(a.hint)}</span></p>`).join('')}
+      <p class="ask__hint leaderonly"><b>If it stalls</b><span>${esc(a.hint)}</span></p>`).join('')}
   </div>`;
 }
 
 function leaderHTML(text) {
   if (!text) return '';
   const body = Array.isArray(text) ? text : [text];
-  return `<details class="lead">
+  return `<details class="lead leaderonly">
     <summary>Leader note</summary>
     <div class="lead__body">${body.map((p) => `<p>${p}</p>`).join('')}</div>
   </details>`;
+}
+
+function takeawayHTML(lines) {
+  if (!lines?.length) return '';
+  return `<div class="takeaway">${lines.map((p) => `<p>${p}</p>`).join('')}</div>`;
 }
 
 function videoHTML(video, index) {
@@ -61,18 +66,19 @@ function videoHTML(video, index) {
       <span>${esc(channel || '')}</span>
       ${duration ? `<span>${esc(duration)}</span>` : ''}
       <a href="${esc(watchUrl)}" target="_blank" rel="noopener">Open on YouTube ${ICONS.external}</a>
+      <button class="btn btn--sm" type="button" data-theater aria-pressed="false" style="margin-inline-start:auto">${ICONS.theater}<span>Theater</span></button>
     </div>
 
     ${stops.length ? `
       <div class="stops" data-stops="${index}">
-        <p class="stops__head">${stops.length} built-in stop${stops.length > 1 ? 's' : ''} — the video pauses on its own and the question comes up here.</p>
+        <p class="stops__head leaderonly">${stops.length} built-in stop${stops.length > 1 ? 's' : ''} — the video pauses on its own and the question comes up here.</p>
         <ol class="stops__list">
           ${stops.map((s, i) => `
             <li class="stop" data-stop="${i}">
               <button class="stop__time" type="button" data-seek="${s.at}" title="Jump here">${esc(s.atLabel || '')}</button>
               <div class="stop__body">
                 <p class="stop__q">${esc(s.q)}</p>
-                ${s.hint ? `<p class="ask__hint"><b>If it stalls</b><span>${esc(s.hint)}</span></p>` : ''}
+                ${s.hint ? `<p class="ask__hint leaderonly"><b>If it stalls</b><span>${esc(s.hint)}</span></p>` : ''}
                 <button class="btn btn--sm stop__resume" type="button" data-resume hidden>Resume video ${ICONS.arrow}</button>
               </div>
             </li>`).join('')}
@@ -119,13 +125,16 @@ async function stepHTML(step, index, ctx) {
       <span class="step__mins">${step.mins} min</span>
     </div>`);
   if (step.title) parts.push(`<h2 class="step__title">${esc(step.title)}</h2>`);
-  if (step.body?.length) parts.push(`<div class="prose">${step.body.map((p) => `<p>${p}</p>`).join('')}</div>`);
+  // `body` is stage direction — how to run the step — so it belongs to the
+  // leader. `takeaway` is the line the room is meant to leave holding.
+  if (step.body?.length) parts.push(`<div class="prose leaderonly">${step.body.map((p) => `<p>${p}</p>`).join('')}</div>`);
   if (step.video) parts.push(videoHTML(step.video, index));
-  if (step.noVideo) parts.push(`<div class="note"><strong>No video today?</strong> ${step.noVideo}</div>`);
+  if (step.noVideo) parts.push(`<div class="note leaderonly"><strong>No video today?</strong> ${step.noVideo}</div>`);
   if (step.kind === 'read' && step.passage) {
     parts.push(`<div data-read="${index}">${await readStepHTML(step, ctx.translationId, ctx.list)}</div>`);
   }
   if (step.asks?.length) parts.push(asksHTML(step.asks));
+  if (step.takeaway?.length) parts.push(takeawayHTML(step.takeaway));
   if (step.leader) parts.push(leaderHTML(step.leader));
 
   return `<section class="step" id="step-${index}" data-step="${index}">${parts.join('\n')}</section>`;
@@ -142,7 +151,7 @@ function beforeSundayHTML(session) {
   const videos = session.steps.filter((s) => s.video).map((s) => s.video);
   if (!videos.length) return '';
 
-  return `<div class="note" style="border-color:var(--accent-line)">
+  return `<div class="note leaderonly" style="border-color:var(--accent-line)">
     <strong>Before you meet.</strong> If you want the video to work for certain, don't rely on
     the WiFi in the room — open ${videos.length > 1 ? 'these' : 'it'} beforehand and download
     ${videos.length > 1 ? 'them' : 'it'} in the YouTube app:
@@ -194,10 +203,11 @@ export async function session(id) {
     <div class="runbar">
       <div class="runbar__inner">
         <span class="runbar__label">Session ${current.id} · ${esc(formatRef(current.ref))}</span>
-        <button class="clock" type="button" data-clock data-total="${total}" title="Start / pause the clock">▶ ${total}:00</button>
         <div class="runbar__steps">
           ${current.steps.map((s, i) => `<button type="button" data-goto="${i}" title="${esc(STEP_LABEL[s.kind] || s.kind)} — ${s.mins} min" aria-current="false"><span class="visually-hidden">${esc(STEP_LABEL[s.kind])}</span></button>`).join('')}
         </div>
+        ${viewToggleHTML()}
+        <button class="clock" type="button" data-clock data-total="${total}" title="Start / pause the clock">▶ ${total}:00</button>
       </div>
     </div>
 
@@ -211,11 +221,11 @@ export async function session(id) {
 
         ${beforeSundayHTML(current)}
 
-        ${current.prep ? `<details class="lead" open><summary>Before you start — 3 minute prep</summary><div class="lead__body">${current.prep.map((p) => `<p>${p}</p>`).join('')}</div></details>` : ''}
+        ${current.prep ? `<details class="lead leaderonly" open><summary>Before you start — 3 minute prep</summary><div class="lead__body">${current.prep.map((p) => `<p>${p}</p>`).join('')}</div></details>` : ''}
 
         ${steps.join('\n')}
 
-        <div class="handoff">
+        <div class="handoff leaderonly">
           <h3>Finish up</h3>
           <p>Mark it done and post the handoff wherever your leaders coordinate, so whoever has next week doesn’t have to ask.</p>
           <pre class="handoff__preview" data-handoff-preview></pre>
@@ -232,24 +242,6 @@ export async function session(id) {
         </div>
       </div>
 
-      <aside class="sesh__rail" aria-label="Session progress">
-        <div class="rail">
-          <div class="rail__clock">
-            <button class="clock clock--lg" type="button" data-clock data-total="${total}" title="Start / pause the clock">▶ ${total}:00</button>
-            <span class="rail__budget">of ${total} min</span>
-          </div>
-          <ol class="rail__steps">
-            ${current.steps.map((s, i) => `
-              <li>
-                <button type="button" data-goto="${i}" aria-current="false">
-                  <span class="rail__kind">${esc(STEP_LABEL[s.kind] || s.kind)}</span>
-                  <span class="rail__name">${esc(s.title || '')}</span>
-                  <span class="rail__mins">${s.mins}′</span>
-                </button>
-              </li>`).join('')}
-          </ol>
-        </div>
-      </aside>
      </div>
     </div>`;
 
@@ -266,7 +258,8 @@ export async function session(id) {
     }
   });
 
-  wireVideos(el, current);
+  const setTheater = wireTheater(el);
+  wireVideos(el, current, setTheater);
 
   const preview = el.querySelector('[data-handoff-preview]');
   const message = handoffMessage(data, current, next);
@@ -304,7 +297,7 @@ export async function session(id) {
  * script simply did not arrive — we drop to a plain embed and the stops stay
  * on the page as timestamps the leader can pause on manually.
  */
-function wireVideos(el, session) {
+function wireVideos(el, session, setTheater) {
   const players = new Map();
 
   el.addEventListener('click', async (event) => {
@@ -331,6 +324,11 @@ function wireVideos(el, session) {
     const video = session.steps[index]?.video;
     const stopsEl = el.querySelector(`[data-stops="${index}"]`);
 
+    // Playing is the moment the screen belongs to the room, so the video goes
+    // to theater width — but only once the embed has swapped in, or the layout
+    // shift cancels the scroll that brings it into view.
+    const videoEl = poster.closest('.video');
+
     const plainEmbed = () => {
       const iframe = document.createElement('iframe');
       iframe.src = poster.dataset.embed;
@@ -338,6 +336,7 @@ function wireVideos(el, session) {
       iframe.allowFullscreen = true;
       iframe.title = poster.getAttribute('aria-label') || 'Video';
       poster.replaceWith(iframe);
+      setTheater(videoEl, true);
     };
 
     if (!video?.pauses?.length) { plainEmbed(); return; }
@@ -360,6 +359,7 @@ function wireVideos(el, session) {
       });
       players.set(index, player);
       stopsEl?.setAttribute('data-live', 'true');
+      setTheater(videoEl, true);
     } catch {
       // No API: the timestamps below the video are still perfectly usable.
       poster.disabled = false;
@@ -369,10 +369,65 @@ function wireVideos(el, session) {
 }
 
 /**
- * A plain elapsed clock, turning amber once the session runs past its budget.
- * There are two of these on screen — the mobile bar and the desktop rail — and
- * they share one timer so they can never disagree.
+/**
+ * Theater mode — the video at the full width of the screen, YouTube-style.
+ *
+ * The measurement is the whole trick. The video sits inside a centred reading
+ * column, so a full-bleed `margin-inline: calc(50% - 50vw)` would centre it on
+ * that column rather than on the screen. Instead we widen it first, read where
+ * its left edge actually landed, and pull it back by exactly that much. Width
+ * comes from `clientWidth` rather than `100vw` so a desktop scrollbar does not
+ * push the page sideways.
  */
+function wireTheater(el) {
+  let active = null;
+
+  const fit = () => {
+    if (!active) return;
+    active.style.setProperty('--theater-w', `${document.documentElement.clientWidth}px`);
+    active.style.setProperty('--theater-x', '0px');
+    active.style.setProperty('--theater-x', `${-active.getBoundingClientRect().left}px`);
+  };
+
+  const setTheater = (video, on) => {
+    if (!video) return;
+    if (on && active && active !== video) setTheater(active, false);
+    video.classList.toggle('video--theater', on);
+    active = on ? video : (active === video ? null : active);
+    if (on) {
+      fit();
+      // Not smooth: the embed is still settling into place, and any layout
+      // shift underneath an animated scroll simply cancels it.
+      video.scrollIntoView({ behavior: 'instant', block: 'start' });
+    } else {
+      video.style.removeProperty('--theater-w');
+      video.style.removeProperty('--theater-x');
+    }
+    const button = video.querySelector('[data-theater]');
+    if (button) {
+      button.setAttribute('aria-pressed', String(on));
+      button.innerHTML = on ? `${ICONS.shrink}<span>Exit theater</span>` : `${ICONS.theater}<span>Theater</span>`;
+    }
+  };
+
+  el.addEventListener('click', (event) => {
+    const button = event.target.closest('[data-theater]');
+    if (!button) return;
+    const video = button.closest('.video');
+    setTheater(video, !video.classList.contains('video--theater'));
+  });
+
+  // The view is thrown away on navigation, so retire the listener with it.
+  const onResize = () => {
+    if (!el.isConnected) { removeEventListener('resize', onResize); return; }
+    fit();
+  };
+  addEventListener('resize', onResize);
+
+  return setTheater;
+}
+
+/** A plain elapsed clock, turning amber once the session runs past its budget. */
 function wireClock(buttons) {
   if (!buttons.length) return;
   const total = Number(buttons[0].dataset.total) * 60;
@@ -402,13 +457,12 @@ function wireClock(buttons) {
 }
 
 /**
- * Highlights the step you are looking at, in both the mobile dot bar and the
- * desktop rail, and lets either one jump between steps.
+ * Highlights the step you are looking at in the run bar, and lets it jump
+ * between steps.
  */
 function wireStepTracking(el) {
   const steps = [...el.querySelectorAll('[data-step]')];
-  // Group the two navigators separately so their indexes stay independent.
-  const navs = [...el.querySelectorAll('.runbar__steps, .rail__steps')]
+  const navs = [...el.querySelectorAll('.runbar__steps')]
     .map((nav) => [...nav.querySelectorAll('[data-goto]')]);
 
   for (const nav of navs) {

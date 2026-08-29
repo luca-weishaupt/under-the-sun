@@ -10,7 +10,7 @@ const DEFAULTS = {
   translation: 'BSB',
   theme: null,          // null = follow the OS
   done: [],             // session ids marked complete on this device
-  leaderNotes: true,    // show leader-only notes
+  leaderNotes: true,    // false = Group view: only what guides the conversation
   highlightHevel: true, // underline every occurrence of the vapor word
 };
 
@@ -61,6 +61,23 @@ export function applyTheme() {
   const root = document.documentElement;
   if (theme) root.setAttribute('data-theme', theme);
   else root.removeAttribute('data-theme');
+}
+
+/* --- leader / group view -------------------------------------------------- */
+
+/**
+ * Two views of the same session. Leader view is everything needed to prepare
+ * and to keep the hour moving; Group view strips it back to what the room is
+ * meant to be looking at, because the screen is often pointed straight at them.
+ */
+export function applyView() {
+  document.documentElement.dataset.view = store.get().leaderNotes ? 'leader' : 'group';
+}
+
+export function toggleView() {
+  store.set({ leaderNotes: !store.get().leaderNotes });
+  applyView();
+  return store.get().leaderNotes;
 }
 
 export function cycleTheme() {

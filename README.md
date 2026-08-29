@@ -33,7 +33,16 @@ So this is the opposite: a real book of the Bible, read all the way through at a
 | 11 | Remember Your Creator | 11:7–12:8 |
 | 12 | So What Do I Do With This? | 12:9–14 |
 
-Each session is one page holding the whole hour in order: an opening question, a short video, the passage with discussion prompts **built into the text where they land**, the harder questions, and one thing to take away. Leader notes are collapsed until you want them.
+Each session is one page holding the whole hour in order: an opening question, a short video, the passage with discussion prompts **built into the text where they land**, the harder questions, and one thing to take away.
+
+**Two views of the same page.** The screen usually ends up pointed at the group, so the run bar has a switch — or the <kbd>L</kbd> key — between:
+
+- **Leader view**, the default: everything you need before and while you teach. Prep, stage directions, leader notes, the "if it stalls" prompt under every question, the night-before download list, and the handoff.
+- **Group view**: only what guides the conversation. The questions, the passage, the video, and the one thing to take away. Everything written *to* the leader disappears.
+
+The choice sticks on the device, and printing always includes the lot regardless of which view is on screen.
+
+**The video plays at the width of the screen.** Hitting play drops it into theater mode — full screen width, questions still underneath. There is a **Theater** button to leave or re-enter it by hand.
 
 **The videos stop by themselves.** Every session's video has two or three built-in stops — it pauses partway through and puts a question on screen, then you hit resume. The timestamps were placed against each video's own caption track, so they land between sentences rather than mid-thought. If the player can't load, the stops are still listed underneath as timestamps you can pause on manually.
 
@@ -48,6 +57,7 @@ All ten videos are BibleProject, 4–8 minutes each, matched to the passage rath
 You do not need to prepare a lesson. Read the passage once and be willing to let a question sit in the air longer than is comfortable.
 
 - Open the session page and run it top to bottom. It is in the order you'll say it.
+- Prep in **Leader view**. When you turn the screen towards the group, flip to **Group view** — the switch in the run bar, or press <kbd>L</kbd>.
 - **Before you meet**, each session shows its video with a direct link so you can download it in advance. Don't count on the WiFi in the room — and every session has a no-video path anyway.
 - The site works **offline** once you've opened it once. Only the videos need a signal.
 - **Print** lays out the whole hour, leader notes included.
@@ -101,7 +111,10 @@ npm run fetch
 
 ### Adding a session
 
-Add an object to `sessions` in `data/sessions.json`. Steps are `open`, `watch`, `read`, `dig`, `land`, or `do`. On a `read` step, `passage` is a reference like `"3:1-8"` or `"11:7-12:8"`, and `interleave` places questions inside the text:
+Add an object to `sessions` in `data/sessions.json`. Steps are `open`, `watch`, `read`, `dig`, `land`, or `do`.
+
+Which fields the group sees matters, because of the two views. `asks[].q`, `takeaway` and the passage are group-facing and always shown. `body`, `leader`, `prep`, `noVideo` and every `hint` are written to the leader and vanish in Group view — so put stage directions in `body` and the line the room leaves holding in `takeaway`.
+ On a `read` step, `passage` is a reference like `"3:1-8"` or `"11:7-12:8"`, and `interleave` places questions inside the text:
 
 ```json
 {

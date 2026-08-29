@@ -14,7 +14,33 @@ export const ICONS = {
   print: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 9V3h10v6M7 19H5a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="7" y="15" width="10" height="6"/></svg>',
   arrow: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h13M13 6l6 6-6 6"/></svg>',
   external: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 4h6v6M20 4l-8.5 8.5"/><path d="M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg>',
+  eye: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2.5 12S6 5.5 12 5.5 21.5 12 21.5 12 18 18.5 12 18.5 2.5 12 2.5 12Z"/><circle cx="12" cy="12" r="2.8"/></svg>',
+  eyeOff: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10.6 6.1A8.9 8.9 0 0 1 12 6c6 0 9.5 6 9.5 6a17 17 0 0 1-3 3.6M6.4 7.7A16.6 16.6 0 0 0 2.5 12S6 18 12 18a9.3 9.3 0 0 0 3.9-.85"/><path d="M4 4l16 16"/></svg>',
+  theater: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 4H4v16h5M15 4h5v16h-5"/></svg>',
+  shrink: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h5v16H4M20 4h-5v16h5"/></svg>',
 };
+
+/* --- leader / group view -------------------------------------------------- */
+
+/** The markup for a Leader/Group switch. Any number of these may be on a page. */
+export function viewToggleHTML() {
+  return `<button class="viewtog" type="button" data-view-toggle aria-pressed="true"></button>`;
+}
+
+/**
+ * Repaints every switch on the page from the store, so instances can never
+ * disagree and the label always says which view you are currently in.
+ */
+export function paintViewToggles(root = document) {
+  const leader = store.get().leaderNotes;
+  for (const button of root.querySelectorAll('[data-view-toggle]')) {
+    button.setAttribute('aria-pressed', String(leader));
+    button.innerHTML = `${leader ? ICONS.eye : ICONS.eyeOff}<span class="viewtog__label">${leader ? 'Leader view' : 'Group view'}</span>`;
+    button.title = leader
+      ? 'Leader view — showing prep, notes and stall prompts. Press L to hide them.'
+      : 'Group view — only what guides the conversation. Press L to bring the notes back.';
+  }
+}
 
 /** Copies text and briefly confirms on the button that triggered it. */
 export async function copyToClipboard(text, button) {
